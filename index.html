@@ -43,8 +43,9 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .tp-card{flex:1;min-width:150px;background:var(--bg4);border:1px solid var(--border);border-radius:3px;padding:9px 11px;border-left:3px solid var(--muted2);}
 .tp-card.tp-up{border-left-color:var(--green);}
 .tp-card.tp-down{border-left-color:var(--red);}
+.tp-card.tp-nr{border-left-color:var(--gold);}
 .tp-num{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:20px;line-height:1;}
-.tp-num.up{color:var(--green);}.tp-num.down{color:var(--red);}.tp-num.neutral{color:var(--muted);}
+.tp-num.up{color:var(--green);}.tp-num.down{color:var(--red);}.tp-num.neutral{color:var(--gold);}
 .tp-body{font-size:11px;color:var(--muted);margin-top:2px;line-height:1.4;}
 .tp-body strong{color:#AAA;}
 .main{padding:1.25rem 1.5rem 4rem;}
@@ -309,7 +310,7 @@ function tp(){
   }
   const cards=diffs.map(item=>{
     const up=item.diff>0, nr=item.oi===-1;
-    const cls=nr?'':up?'tp-up':'tp-down', nc=nr?'neutral':up?'up':'down';
+    const cls=nr?'tp-nr':up?'tp-up':'tp-down', nc=nr?'neutral':up?'up':'down';
     const nt=nr?'NR':up?`↑${item.diff}`:`↓${Math.abs(item.diff)}`;
     return`<div class="tp-card ${cls}"><div class="tp-num ${nc}">${nt}</div>
       <div class="tp-body"><strong>${item.name}</strong> — ${why(item)}</div></div>`;
