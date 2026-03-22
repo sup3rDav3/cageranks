@@ -9,28 +9,18 @@
 :root{--gold:#C9A84C;--gold-light:#E8C870;--red:#D72B2B;--green:#1D9E75;--bg:#0A0A0A;--bg2:#111;--bg3:#1A1A1A;--bg4:#161616;--border:rgba(255,255,255,.07);--border2:rgba(255,255,255,.13);--text:#F0F0F0;--muted:#666;--muted2:#3A3A3A;}
 *{box-sizing:border-box;margin:0;padding:0;}
 body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-height:100vh;overflow-x:hidden;}
-
-/* HEADER */
 header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:58px;position:sticky;top:0;background:rgba(10,10,10,.97);backdrop-filter:blur(12px);z-index:100;}
-.logo{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:22px;letter-spacing:0.06em;display:flex;align-items:center;gap:9px;}.logo-cage,.logo-ranks{display:inline;letter-spacing:0.06em;}
+.logo{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:22px;letter-spacing:0.06em;display:flex;align-items:center;gap:9px;}
 .logo-dot{width:7px;height:7px;background:var(--red);border-radius:50%;animation:pulse 2s infinite;flex-shrink:0;}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.7)}}
-.logo-cage{color:var(--text);}
-.logo-ranks{color:var(--gold);}
 .header-right{display:flex;align-items:center;gap:10px;}
 .updated-badge{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.25);color:var(--gold);padding:3px 9px;border-radius:2px;font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.05em;}
-
-/* SYNC BAR */
 .sync-bar{padding:6px 1.5rem;background:rgba(201,168,76,.03);border-bottom:1px solid rgba(201,168,76,.08);display:flex;align-items:center;gap:8px;font-size:11px;color:rgba(201,168,76,.55);font-family:'Barlow Condensed',sans-serif;letter-spacing:.05em;}
 .sync-dot{width:5px;height:5px;background:var(--gold);border-radius:50%;flex-shrink:0;}
-
-/* HERO */
 .hero{padding:1.75rem 1.5rem 1.25rem;border-bottom:1px solid var(--border);}
 .hero h1{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:clamp(32px,5.5vw,56px);line-height:.92;text-transform:uppercase;margin-bottom:8px;}
 .hero h1 em{color:var(--gold);font-style:normal;display:block;}
 .hero p{color:var(--muted);font-size:13px;max-width:480px;line-height:1.55;}
-
-/* NAV — two rows: men's top, women's bottom */
 .nav-wrap{position:sticky;top:58px;z-index:90;background:rgba(10,10,10,.98);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
 .nav-row{display:flex;overflow-x:auto;scrollbar-width:none;padding:0 1.5rem;}
 .nav-row::-webkit-scrollbar{display:none;}
@@ -41,8 +31,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .weight-tab.active{color:var(--gold);border-bottom-color:var(--gold);}
 .tab-lbs{font-size:8px;color:var(--muted2);font-weight:400;}
 .weight-tab.active .tab-lbs{color:rgba(201,168,76,.45);}
-
-/* VIEW BAR */
 .view-bar{padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--border);}
 .view-toggle{display:flex;background:var(--bg3);border:1px solid var(--border);border-radius:3px;overflow:hidden;}
 .view-btn{padding:6px 13px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);cursor:pointer;border:none;background:none;transition:all .15s;}
@@ -50,8 +38,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .view-btn.active{background:var(--gold);color:#000;}
 .div-label{font-family:'Barlow Condensed',sans-serif;font-size:13px;color:var(--muted);letter-spacing:.05em;}
 .div-label strong{color:var(--text);font-size:15px;}
-
-/* TALKING POINTS */
 .tp-strip{padding:10px 1.5rem;border-bottom:1px solid var(--border);background:rgba(201,168,76,.02);}
 .tp-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:7px;font-weight:700;}
 .tp-cards{display:flex;gap:7px;flex-wrap:wrap;}
@@ -62,8 +48,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .tp-num.up{color:var(--green);}.tp-num.down{color:var(--red);}.tp-num.neutral{color:var(--muted);}
 .tp-body{font-size:11px;color:var(--muted);margin-top:2px;line-height:1.4;}
 .tp-body strong{color:#AAA;}
-
-/* MAIN */
 .main{padding:1.25rem 1.5rem 4rem;}
 .col-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px;}
 .col-title{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:10px;letter-spacing:.18em;text-transform:uppercase;}
@@ -71,8 +55,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .col-legend{display:flex;gap:8px;}
 .leg{display:flex;align-items:center;gap:3px;font-size:10px;color:var(--muted2);font-family:'Barlow Condensed',sans-serif;}
 .leg-dot{width:5px;height:5px;border-radius:50%;}
-
-/* FIGHTER ROWS */
 .fighter-list{display:flex;flex-direction:column;gap:3px;}
 .fighter-row{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:10px;padding:9px 13px;background:var(--bg2);border:1px solid var(--border);border-radius:2px;transition:background .12s,border-color .12s;animation:fadeUp .2s ease both;}
 @keyframes fadeUp{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
@@ -91,16 +73,12 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .tag-former{background:rgba(201,168,76,.12);color:var(--gold);}
 .tag-streak{background:rgba(215,43,43,.12);color:#E05555;}
 .row-right{display:flex;align-items:center;gap:8px;}
-
-/* SCORE */
 .score-block{text-align:right;}
 .score-val{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:19px;color:var(--text);line-height:1;}
 .score-lbl{font-size:9px;color:var(--muted2);letter-spacing:.06em;text-transform:uppercase;font-family:'Barlow Condensed',sans-serif;}
 .score-bars{display:flex;gap:2px;margin-top:3px;justify-content:flex-end;}
 .mini-bar{width:3px;height:13px;border-radius:1px;background:var(--bg3);position:relative;overflow:hidden;}
 .mini-bar-fill{position:absolute;bottom:0;left:0;right:0;border-radius:1px;}
-
-/* VOTES */
 .vote-block{display:flex;align-items:center;gap:4px;}
 .vote-btn{display:flex;align-items:center;gap:3px;background:var(--bg3);border:1px solid var(--border2);border-radius:3px;padding:4px 7px;font-size:11px;font-weight:700;color:var(--muted);cursor:pointer;transition:all .15s;font-family:'Barlow Condensed',sans-serif;white-space:nowrap;}
 .vote-btn.up-btn:hover:not(.locked){border-color:var(--green);color:var(--green);background:rgba(29,158,117,.08);}
@@ -109,8 +87,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .vote-btn.voted-dn{background:rgba(215,43,43,.12);border-color:var(--red);color:#E05555;}
 .vote-btn.locked{opacity:.45;cursor:default;}
 .thumb{font-size:11px;line-height:1;}
-
-/* COMPARE TABLE */
 .compare-wrap{overflow-x:auto;}
 .compare-table{width:100%;border-collapse:collapse;}
 .compare-table th{font-family:'Barlow Condensed',sans-serif;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:8px 12px;text-align:left;border-bottom:1px solid rgba(255,255,255,.06);background:var(--bg3);font-weight:700;}
@@ -128,26 +104,33 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .dp{display:inline-block;font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:13px;padding:2px 8px;border-radius:2px;}
 .dp.up{background:rgba(29,158,117,.14);color:var(--green);}.dp.down{background:rgba(215,43,43,.12);color:#E05555;}.dp.same{background:var(--bg3);color:var(--muted2);}.dp.nr{background:rgba(215,43,43,.08);color:#885555;}
 .cscore{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:18px;color:var(--text);text-align:right;}
-
-/* SENTIMENT */
 .sentiment-row{margin-top:10px;padding:9px 13px;background:var(--bg4);border:1px solid var(--border);border-radius:3px;display:flex;align-items:center;gap:10px;font-size:11px;color:var(--muted);font-family:'Barlow Condensed',sans-serif;}
 .sent-track{flex:1;height:5px;background:var(--bg3);border-radius:3px;overflow:hidden;}
 .sent-fill{height:100%;background:var(--green);border-radius:3px;transition:width .4s ease;}
 .official-note{margin-top:10px;padding:9px 13px;background:var(--bg4);border:1px solid var(--border);border-radius:3px;font-size:11px;color:var(--muted);font-family:'Barlow Condensed',sans-serif;line-height:1.5;}
+/* Loading state */
+.loading{display:flex;align-items:center;justify-content:center;padding:4rem;color:var(--muted);font-family:'Barlow Condensed',sans-serif;font-size:14px;letter-spacing:.1em;gap:10px;}
+.loading-dot{width:6px;height:6px;background:var(--gold);border-radius:50%;animation:ldot 1.2s ease-in-out infinite;}
+.loading-dot:nth-child(2){animation-delay:.2s;}
+.loading-dot:nth-child(3){animation-delay:.4s;}
+@keyframes ldot{0%,80%,100%{opacity:.2;transform:scale(.8)}40%{opacity:1;transform:scale(1)}}
 </style>
 </head>
 <body>
 
 <header>
-  <div class="logo"><div class="logo-dot"></div><div style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:22px;letter-spacing:0.06em;line-height:1"><span style="color:var(--text)">cage</span><span style="color:var(--gold)">ranks</span></div></div>
+  <div class="logo">
+    <div class="logo-dot"></div>
+    <div style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:22px;letter-spacing:0.06em;line-height:1"><span style="color:var(--text)">cage</span><span style="color:var(--gold)">ranks</span></div>
+  </div>
   <div class="header-right">
-    <div class="updated-badge">Mar 21, 2026</div>
+    <div class="updated-badge" id="updatedBadge">Loading...</div>
   </div>
 </header>
 
 <div class="sync-bar">
   <div class="sync-dot"></div>
-  Data refreshed weekly · Last sync: Mar 21, 2026 · Next sync: Mar 28, 2026
+  <span id="syncText">Loading data...</span>
 </div>
 
 <div class="hero">
@@ -155,7 +138,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
   <p>Composite rankings built from win quality, title history, fan popularity, and cross-org performance. Updated weekly. Vote to register community sentiment.</p>
 </div>
 
-<!-- TWO-ROW NAV: men's top, women's bottom — always fully visible -->
 <div class="nav-wrap">
   <div class="nav-row nav-row-men" id="navMen"></div>
   <div class="nav-row nav-row-women" id="navWomen"></div>
@@ -171,18 +153,20 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 </div>
 
 <div class="tp-strip" id="tpStrip"></div>
-<div class="main" id="mainContent"></div>
+<div class="main" id="mainContent">
+  <div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>
+</div>
 
 <script>
 const DIVS_M=[
-  {id:'hw', name:'Heavyweight',       lbs:'265'},
-  {id:'lhw',name:'Lt. Heavyweight',   lbs:'205'},
-  {id:'mw', name:'Middleweight',      lbs:'185'},
-  {id:'ww', name:'Welterweight',      lbs:'170'},
-  {id:'lw', name:'Lightweight',       lbs:'155'},
-  {id:'fw', name:'Featherweight',     lbs:'145'},
-  {id:'bw', name:'Bantamweight',      lbs:'135'},
-  {id:'flw',name:'Flyweight',         lbs:'125'},
+  {id:'hw', name:'Heavyweight',     lbs:'265'},
+  {id:'lhw',name:'Lt. Heavyweight', lbs:'205'},
+  {id:'mw', name:'Middleweight',    lbs:'185'},
+  {id:'ww', name:'Welterweight',    lbs:'170'},
+  {id:'lw', name:'Lightweight',     lbs:'155'},
+  {id:'fw', name:'Featherweight',   lbs:'145'},
+  {id:'bw', name:'Bantamweight',    lbs:'135'},
+  {id:'flw',name:'Flyweight',       lbs:'125'},
 ];
 const DIVS_W=[
   {id:'wsw', name:'Strawweight',  lbs:'115'},
@@ -191,273 +175,130 @@ const DIVS_W=[
 ];
 const ALL_DIVS=[...DIVS_M,...DIVS_W];
 
-const DB={
-hw:{yours:[
-  {name:'Tom Aspinall',record:'15-3',score:94,pop:88,title:98,rec:92,cross:78,tags:[],champ:true,votes:{up:2240,dn:210}},
-  {name:'Jon Jones',record:'27-1 1NC',score:90,pop:92,title:100,rec:86,cross:88,tags:['former'],votes:{up:2480,dn:820}},
-  {name:'Ciryl Gane',record:'13-3',score:82,pop:76,title:88,rec:80,cross:80,tags:['former'],votes:{up:860,dn:310}},
-  {name:'Curtis Blaydes',record:'18-4 1NC',score:76,pop:64,title:55,rec:80,cross:72,tags:[],votes:{up:640,dn:220}},
-  {name:'Stipe Miocic',record:'20-5',score:72,pop:84,title:96,rec:66,cross:74,tags:['former'],votes:{up:1640,dn:380}},
-  {name:'Jailton Almeida',record:'22-2',score:70,pop:68,title:35,rec:82,cross:72,tags:['streak'],votes:{up:680,dn:190}},
-  {name:'Alexander Volkov',record:'38-10',score:65,pop:58,title:30,rec:72,cross:76,tags:[],votes:{up:480,dn:160}},
-  {name:'Derrick Lewis',record:'27-12 1NC',score:61,pop:88,title:60,rec:56,cross:62,tags:['former'],votes:{up:1480,dn:560}},
-  {name:'Sergei Pavlovich',record:'18-3',score:59,pop:60,title:30,rec:70,cross:62,tags:[],votes:{up:520,dn:200}},
-  {name:'Tai Tuivasa',record:'15-8',score:54,pop:80,title:20,rec:54,cross:58,tags:[],votes:{up:940,dn:340}},
-],official:[
-  {name:'Tom Aspinall',record:'15-3',champ:true},
-  {name:'Jon Jones',record:'27-1 1NC'},{name:'Curtis Blaydes',record:'18-4 1NC'},
-  {name:'Ciryl Gane',record:'13-3'},{name:'Jailton Almeida',record:'22-2'},
-  {name:'Stipe Miocic',record:'20-5'},{name:'Alexander Volkov',record:'38-10'},
-  {name:'Sergei Pavlovich',record:'18-3'},{name:'Derrick Lewis',record:'27-12 1NC'},
-  {name:'Tai Tuivasa',record:'15-8'},
-]},
-lhw:{yours:[
-  {name:'Alex Pereira',record:'12-3',score:96,pop:97,title:98,rec:90,cross:92,tags:[],champ:true,votes:{up:2880,dn:240}},
-  {name:'Magomed Ankalaev',record:'19-2',score:85,pop:68,title:72,rec:90,cross:80,tags:[],votes:{up:720,dn:260}},
-  {name:'Jamahal Hill',record:'13-2 1NC',score:79,pop:78,title:85,rec:76,cross:72,tags:['former'],votes:{up:1040,dn:320}},
-  {name:'Jiri Prochazka',record:'32-5',score:77,pop:84,title:90,rec:74,cross:86,tags:['former'],votes:{up:1420,dn:360}},
-  {name:'Khalil Rountree',record:'13-5 1NC',score:72,pop:72,title:40,rec:78,cross:64,tags:['streak'],votes:{up:680,dn:210}},
-  {name:'Carlos Ulberg',record:'13-2',score:68,pop:62,title:25,rec:80,cross:62,tags:['streak'],votes:{up:540,dn:170}},
-  {name:'Dominick Reyes',record:'13-5',score:62,pop:64,title:68,rec:60,cross:66,tags:[],votes:{up:620,dn:280}},
-  {name:'Aleksandar Rakic',record:'15-4 1NC',score:59,pop:58,title:40,rec:66,cross:64,tags:[],votes:{up:480,dn:190}},
-  {name:'Nikita Krylov',record:'30-10',score:56,pop:60,title:30,rec:64,cross:66,tags:[],votes:{up:520,dn:220}},
-  {name:'Jan Blachowicz',record:'30-11 1NC',score:54,pop:66,title:78,rec:52,cross:70,tags:['former'],votes:{up:840,dn:360}},
-],official:[
-  {name:'Alex Pereira',record:'12-3',champ:true},
-  {name:'Magomed Ankalaev',record:'19-2'},{name:'Jiri Prochazka',record:'32-5'},
-  {name:'Jamahal Hill',record:'13-2 1NC'},{name:'Khalil Rountree',record:'13-5 1NC'},
-  {name:'Carlos Ulberg',record:'13-2'},{name:'Jan Blachowicz',record:'30-11 1NC'},
-  {name:'Dominick Reyes',record:'13-5'},{name:'Aleksandar Rakic',record:'15-4 1NC'},
-  {name:'Nikita Krylov',record:'30-10'},
-]},
-mw:{yours:[
-  {name:'Khamzat Chimaev',record:'15-0',score:95,pop:90,title:95,rec:98,cross:88,tags:[],champ:true,votes:{up:2100,dn:380}},
-  {name:'Dricus du Plessis',record:'22-3',score:87,pop:80,title:90,rec:84,cross:82,tags:['former'],votes:{up:1420,dn:340}},
-  {name:'Nassourdine Imavov',record:'15-4',score:80,pop:68,title:45,rec:86,cross:80,tags:['streak'],votes:{up:780,dn:220}},
-  {name:'Reinier de Ridder',record:'18-2',score:77,pop:62,title:55,rec:82,cross:92,tags:['former'],votes:{up:640,dn:180}},
-  {name:'Caio Borralho',record:'18-1',score:74,pop:70,title:40,rec:84,cross:70,tags:['streak'],votes:{up:720,dn:200}},
-  {name:'Anthony Hernandez',record:'14-2',score:71,pop:65,title:30,rec:80,cross:66,tags:['streak'],votes:{up:580,dn:160}},
-  {name:'Sean Strickland',record:'29-6',score:68,pop:82,title:80,rec:66,cross:74,tags:['former'],votes:{up:1240,dn:680}},
-  {name:'Robert Whittaker',record:'26-7',score:65,pop:78,title:88,rec:62,cross:78,tags:['former'],votes:{up:1380,dn:290}},
-  {name:'Gregory Rodrigues',record:'17-4',score:60,pop:60,title:20,rec:70,cross:62,tags:[],votes:{up:420,dn:140}},
-  {name:'Roman Dolidze',record:'14-4',score:57,pop:54,title:20,rec:68,cross:60,tags:[],votes:{up:380,dn:160}},
-],official:[
-  {name:'Khamzat Chimaev',record:'15-0',champ:true},
-  {name:'Dricus du Plessis',record:'22-3'},{name:'Sean Strickland',record:'29-6'},
-  {name:'Caio Borralho',record:'18-1'},{name:'Nassourdine Imavov',record:'15-4'},
-  {name:'Robert Whittaker',record:'26-7'},{name:'Reinier de Ridder',record:'18-2'},
-  {name:'Anthony Hernandez',record:'14-2'},{name:'Gregory Rodrigues',record:'17-4'},
-  {name:'Roman Dolidze',record:'14-4'},
-]},
-ww:{yours:[
-  {name:'Jack Della Maddalena',record:'18-2',score:93,pop:82,title:95,rec:96,cross:78,tags:[],champ:true,votes:{up:1820,dn:210}},
-  {name:'Shavkat Rakhmonov',record:'19-0',score:91,pop:78,title:60,rec:98,cross:85,tags:['streak'],votes:{up:1340,dn:290}},
-  {name:'Islam Makhachev',record:'28-1',score:89,pop:88,title:100,rec:86,cross:90,tags:['former'],votes:{up:1580,dn:470}},
-  {name:'Kamaru Usman',record:'21-4',score:82,pop:84,title:95,rec:78,cross:86,tags:['former'],votes:{up:1240,dn:560}},
-  {name:'Ian Machado Garry',record:'16-0',score:78,pop:76,title:40,rec:88,cross:74,tags:['streak'],votes:{up:890,dn:310}},
-  {name:'Sean Brady',record:'18-1',score:74,pop:62,title:40,rec:82,cross:68,tags:[],votes:{up:560,dn:200}},
-  {name:'Michael Morales',record:'17-0',score:71,pop:65,title:35,rec:85,cross:60,tags:['streak'],votes:{up:620,dn:180}},
-  {name:'Belal Muhammad',record:'24-4',score:68,pop:66,title:68,rec:72,cross:65,tags:['former'],votes:{up:720,dn:340}},
-  {name:'Leon Edwards',record:'22-4',score:65,pop:74,title:82,rec:62,cross:72,tags:['former'],votes:{up:980,dn:420}},
-  {name:'Joaquin Buckley',record:'22-6',score:61,pop:80,title:30,rec:66,cross:58,tags:[],votes:{up:840,dn:260}},
-],official:[
-  {name:'Jack Della Maddalena',record:'18-2',champ:true},
-  {name:'Shavkat Rakhmonov',record:'19-0'},{name:'Belal Muhammad',record:'24-4'},
-  {name:'Sean Brady',record:'18-1'},{name:'Ian Machado Garry',record:'16-0'},
-  {name:'Leon Edwards',record:'22-4'},{name:'Kamaru Usman',record:'21-4'},
-  {name:'Michael Morales',record:'17-0'},{name:'Joaquin Buckley',record:'22-6'},
-  {name:'Islam Makhachev',record:'28-1'},
-]},
-lw:{yours:[
-  {name:'Ilia Topuria',record:'17-0',score:97,pop:95,title:100,rec:98,cross:80,tags:[],champ:true,votes:{up:2401,dn:180}},
-  {name:'Arman Tsarukyan',record:'23-3',score:88,pop:72,title:55,rec:92,cross:84,tags:['streak'],votes:{up:1142,dn:341}},
-  {name:'Justin Gaethje',record:'25-5',score:83,pop:94,title:78,rec:80,cross:75,tags:['former'],votes:{up:1820,dn:220}},
-  {name:'Charles Oliveira',record:'34-10',score:81,pop:88,title:90,rec:76,cross:80,tags:['former'],votes:{up:2105,dn:412}},
-  {name:'Dustin Poirier',record:'30-8',score:78,pop:97,title:74,rec:72,cross:76,tags:[],votes:{up:1980,dn:190}},
-  {name:'Islam Makhachev',record:'28-1',score:76,pop:85,title:95,rec:70,cross:88,tags:['former'],votes:{up:1650,dn:540}},
-  {name:'Beneil Dariush',record:'22-5-1',score:72,pop:58,title:40,rec:79,cross:70,tags:[],votes:{up:620,dn:180}},
-  {name:'Dan Hooker',record:'24-13',score:66,pop:74,title:30,rec:64,cross:72,tags:[],votes:{up:740,dn:310}},
-  {name:'Max Holloway',record:'26-8',score:64,pop:91,title:72,rec:60,cross:78,tags:['former'],votes:{up:2200,dn:280}},
-  {name:'Michael Chandler',record:'23-9',score:62,pop:88,title:68,rec:58,cross:90,tags:['former'],votes:{up:1400,dn:620}},
-],official:[
-  {name:'Ilia Topuria',record:'17-0',champ:true},
-  {name:'Justin Gaethje',record:'25-5'},{name:'Charles Oliveira',record:'34-10'},
-  {name:'Arman Tsarukyan',record:'23-3'},{name:'Dustin Poirier',record:'30-8'},
-  {name:'Dan Hooker',record:'24-13'},{name:'Beneil Dariush',record:'22-5-1'},
-  {name:'Max Holloway',record:'26-8'},{name:'Michael Chandler',record:'23-9'},
-  {name:'Islam Makhachev',record:'28-1'},
-]},
-fw:{yours:[
-  {name:'Alexander Volkanovski',record:'28-4',score:95,pop:92,title:98,rec:90,cross:88,tags:[],champ:true,votes:{up:2620,dn:310}},
-  {name:'Diego Lopes',record:'26-6',score:86,pop:80,title:60,rec:90,cross:82,tags:['streak'],votes:{up:1080,dn:280}},
-  {name:'Movsar Evloev',record:'18-0',score:82,pop:65,title:42,rec:94,cross:72,tags:['streak'],votes:{up:720,dn:190}},
-  {name:'Lerone Murphy',record:'16-0-1',score:80,pop:70,title:40,rec:92,cross:74,tags:['streak'],votes:{up:840,dn:210}},
-  {name:'Brian Ortega',record:'16-3 1NC',score:74,pop:82,title:78,rec:72,cross:70,tags:[],votes:{up:1240,dn:360}},
-  {name:'Kevin Vallejos',record:'18-1',score:71,pop:72,title:30,rec:84,cross:64,tags:['streak'],votes:{up:680,dn:180}},
-  {name:'Giga Chikadze',record:'15-4',score:67,pop:74,title:28,rec:74,cross:68,tags:[],votes:{up:720,dn:260}},
-  {name:'Arnold Allen',record:'18-2',score:64,pop:64,title:25,rec:78,cross:62,tags:[],votes:{up:560,dn:180}},
-  {name:'Yair Rodriguez',record:'17-5 1NC',score:61,pop:76,title:50,rec:64,cross:64,tags:[],votes:{up:840,dn:340}},
-  {name:'Ilia Topuria',record:'17-0',score:60,pop:95,title:90,rec:98,cross:80,tags:['former'],votes:{up:2100,dn:200}},
-],official:[
-  {name:'Alexander Volkanovski',record:'28-4',champ:true},
-  {name:'Diego Lopes',record:'26-6'},{name:'Movsar Evloev',record:'18-0'},
-  {name:'Lerone Murphy',record:'16-0-1'},{name:'Brian Ortega',record:'16-3 1NC'},
-  {name:'Kevin Vallejos',record:'18-1'},{name:'Giga Chikadze',record:'15-4'},
-  {name:'Arnold Allen',record:'18-2'},{name:'Yair Rodriguez',record:'17-5 1NC'},
-  {name:'Ilia Topuria',record:'17-0'},
-]},
-bw:{yours:[
-  {name:'Petr Yan',record:'20-5',score:92,pop:82,title:95,rec:86,cross:84,tags:[],champ:true,votes:{up:1840,dn:360}},
-  {name:'Merab Dvalishvili',record:'18-4',score:87,pop:74,title:88,rec:88,cross:76,tags:['former'],votes:{up:1120,dn:290}},
-  {name:'Cory Sandhagen',record:'17-5',score:81,pop:76,title:65,rec:82,cross:72,tags:[],votes:{up:940,dn:260}},
-  {name:'Henry Cejudo',record:'16-3',score:78,pop:82,title:92,rec:74,cross:90,tags:['former'],votes:{up:1340,dn:440}},
-  {name:'Umar Nurmagomedov',record:'18-0',score:76,pop:70,title:38,rec:90,cross:78,tags:['streak'],votes:{up:860,dn:240}},
-  {name:'Song Yadong',record:'22-7-1',score:72,pop:66,title:32,rec:78,cross:70,tags:[],votes:{up:620,dn:220}},
-  {name:'Marlon Vera',record:'22-10-1',score:68,pop:72,title:30,rec:72,cross:68,tags:[],votes:{up:740,dn:300}},
-  {name:'Raul Rosas Jr.',record:'12-1',score:65,pop:78,title:25,rec:76,cross:58,tags:['streak'],votes:{up:920,dn:280}},
-  {name:'Deiveson Figueiredo',record:'23-4-1',score:62,pop:70,title:65,rec:64,cross:72,tags:['former'],votes:{up:820,dn:340}},
-  {name:'Rob Font',record:'20-8',score:58,pop:60,title:22,rec:68,cross:60,tags:[],votes:{up:480,dn:200}},
-],official:[
-  {name:'Petr Yan',record:'20-5',champ:true},
-  {name:'Merab Dvalishvili',record:'18-4'},{name:'Cory Sandhagen',record:'17-5'},
-  {name:'Umar Nurmagomedov',record:'18-0'},{name:'Song Yadong',record:'22-7-1'},
-  {name:'Henry Cejudo',record:'16-3'},{name:'Marlon Vera',record:'22-10-1'},
-  {name:'Raul Rosas Jr.',record:'12-1'},{name:'Deiveson Figueiredo',record:'23-4-1'},
-  {name:'Rob Font',record:'20-8'},
-]},
-flw:{yours:[
-  {name:'Joshua Van',record:'16-2',score:90,pop:74,title:90,rec:86,cross:72,tags:[],champ:true,votes:{up:1240,dn:210}},
-  {name:'Alexandre Pantoja',record:'28-5',score:88,pop:80,title:95,rec:84,cross:78,tags:['former'],votes:{up:1420,dn:290}},
-  {name:'Brandon Moreno',record:'22-8-2',score:82,pop:86,title:90,rec:78,cross:80,tags:['former'],votes:{up:1680,dn:320}},
-  {name:'Amir Albazi',record:'17-1',score:78,pop:66,title:40,rec:86,cross:74,tags:['streak'],votes:{up:720,dn:200}},
-  {name:'Kai Kara-France',record:'25-11 1NC',score:72,pop:70,title:58,rec:72,cross:70,tags:[],votes:{up:640,dn:240}},
-  {name:'Tatsuro Taira',record:'16-0',score:70,pop:68,title:32,rec:86,cross:66,tags:['streak'],votes:{up:680,dn:190}},
-  {name:'Manel Kape',record:'19-6',score:66,pop:62,title:28,rec:72,cross:64,tags:[],votes:{up:520,dn:200}},
-  {name:'Matheus Nicolau',record:'19-4-1',score:63,pop:58,title:25,rec:70,cross:62,tags:[],votes:{up:460,dn:180}},
-  {name:'Kyoji Horiguchi',record:'32-5',score:60,pop:66,title:72,rec:60,cross:86,tags:['former'],votes:{up:740,dn:260}},
-  {name:'Tim Elliott',record:'20-14-1',score:54,pop:62,title:20,rec:56,cross:58,tags:[],votes:{up:480,dn:220}},
-],official:[
-  {name:'Joshua Van',record:'16-2',champ:true},
-  {name:'Alexandre Pantoja',record:'28-5'},{name:'Amir Albazi',record:'17-1'},
-  {name:'Brandon Moreno',record:'22-8-2'},{name:'Kai Kara-France',record:'25-11 1NC'},
-  {name:'Tatsuro Taira',record:'16-0'},{name:'Manel Kape',record:'19-6'},
-  {name:'Matheus Nicolau',record:'19-4-1'},{name:'Kyoji Horiguchi',record:'32-5'},
-  {name:'Tim Elliott',record:'20-14-1'},
-]},
-wsw:{yours:[
-  {name:'Mackenzie Dern',record:'16-5',score:88,pop:80,title:88,rec:78,cross:72,tags:[],champ:true,votes:{up:1420,dn:380}},
-  {name:'Zhang Weili',record:'26-4',score:94,pop:88,title:96,rec:92,cross:86,tags:['former'],votes:{up:2100,dn:240}},
-  {name:'Virna Jandiroba',record:'22-4',score:82,pop:66,title:60,rec:84,cross:76,tags:[],votes:{up:720,dn:240}},
-  {name:'Tatiana Suarez',record:'11-1',score:80,pop:72,title:52,rec:86,cross:68,tags:[],votes:{up:840,dn:220}},
-  {name:'Xiaonan Yan',record:'19-5 1NC',score:76,pop:64,title:42,rec:80,cross:72,tags:[],votes:{up:640,dn:210}},
-  {name:'Gillian Robertson',record:'14-6',score:72,pop:62,title:28,rec:76,cross:66,tags:['streak'],votes:{up:560,dn:190}},
-  {name:'Amanda Lemos',record:'15-5-1',score:68,pop:68,title:32,rec:72,cross:64,tags:[],votes:{up:620,dn:260}},
-  {name:'Angela Hill',record:'18-15',score:60,pop:60,title:18,rec:60,cross:58,tags:[],votes:{up:420,dn:200}},
-  {name:'Iasmin Lucindo',record:'18-6',score:57,pop:54,title:15,rec:66,cross:56,tags:[],votes:{up:380,dn:170}},
-  {name:'Loopy Godinez',record:'11-4',score:54,pop:58,title:14,rec:62,cross:54,tags:[],votes:{up:360,dn:180}},
-],official:[
-  {name:'Mackenzie Dern',record:'16-5',champ:true},
-  {name:'Zhang Weili',record:'26-4'},{name:'Virna Jandiroba',record:'22-4'},
-  {name:'Tatiana Suarez',record:'11-1'},{name:'Xiaonan Yan',record:'19-5 1NC'},
-  {name:'Gillian Robertson',record:'14-6'},{name:'Amanda Lemos',record:'15-5-1'},
-  {name:'Angela Hill',record:'18-15'},{name:'Iasmin Lucindo',record:'18-6'},
-  {name:'Loopy Godinez',record:'11-4'},
-]},
-wflw:{yours:[
-  {name:'Valentina Shevchenko',record:'26-4-1',score:97,pop:94,title:100,rec:92,cross:90,tags:[],champ:true,votes:{up:3100,dn:280}},
-  {name:'Natalia Silva',record:'20-5-1',score:84,pop:74,title:42,rec:86,cross:74,tags:['streak'],votes:{up:840,dn:220}},
-  {name:'Manon Fiorot',record:'13-2',score:82,pop:72,title:40,rec:86,cross:78,tags:[],votes:{up:780,dn:210}},
-  {name:'Alexa Grasso',record:'16-5-1',score:79,pop:78,title:82,rec:76,cross:72,tags:['former'],votes:{up:1120,dn:340}},
-  {name:'Erin Blanchfield',record:'14-2',score:76,pop:72,title:38,rec:82,cross:66,tags:[],votes:{up:840,dn:240}},
-  {name:'Taila Santos',record:'22-4',score:70,pop:64,title:58,rec:72,cross:68,tags:[],votes:{up:620,dn:220}},
-  {name:'Maycee Barber',record:'15-2',score:66,pop:70,title:22,rec:74,cross:60,tags:[],votes:{up:720,dn:240}},
-  {name:'Jessica Andrade',record:'28-12',score:63,pop:74,title:78,rec:62,cross:76,tags:['former'],votes:{up:840,dn:360}},
-  {name:'Jasmine Jasudavicius',record:'14-4',score:58,pop:52,title:16,rec:66,cross:56,tags:[],votes:{up:380,dn:160}},
-  {name:'Viviane Araujo',record:'14-6',score:54,pop:56,title:20,rec:62,cross:58,tags:[],votes:{up:420,dn:200}},
-],official:[
-  {name:'Valentina Shevchenko',record:'26-4-1',champ:true},
-  {name:'Natalia Silva',record:'20-5-1'},{name:'Manon Fiorot',record:'13-2'},
-  {name:'Alexa Grasso',record:'16-5-1'},{name:'Erin Blanchfield',record:'14-2'},
-  {name:'Taila Santos',record:'22-4'},{name:'Maycee Barber',record:'15-2'},
-  {name:'Jessica Andrade',record:'28-12'},{name:'Jasmine Jasudavicius',record:'14-4'},
-  {name:'Viviane Araujo',record:'14-6'},
-]},
-wbw:{yours:[
-  {name:'Kayla Harrison',record:'19-1',score:93,pop:86,title:95,rec:90,cross:96,tags:[],champ:true,votes:{up:1980,dn:290}},
-  {name:'Julianna Peña',record:'12-6',score:84,pop:82,title:90,rec:78,cross:74,tags:['former'],votes:{up:1240,dn:480}},
-  {name:'Raquel Pennington',record:'16-9',score:76,pop:68,title:68,rec:74,cross:66,tags:['former'],votes:{up:720,dn:280}},
-  {name:'Norma Dumont',record:'13-2',score:74,pop:62,title:38,rec:80,cross:70,tags:[],votes:{up:560,dn:190}},
-  {name:'Irene Aldana',record:'15-8',score:70,pop:66,title:42,rec:72,cross:68,tags:[],votes:{up:580,dn:230}},
-  {name:'Yana Santos',record:'17-8 1NC',score:66,pop:60,title:28,rec:68,cross:62,tags:[],votes:{up:480,dn:200}},
-  {name:'Ailin Perez',record:'13-2',score:63,pop:58,title:22,rec:72,cross:60,tags:['streak'],votes:{up:440,dn:170}},
-  {name:'Ketlen Vieira',record:'15-5',score:60,pop:56,title:28,rec:66,cross:62,tags:[],votes:{up:420,dn:190}},
-  {name:'Karol Rosa',record:'19-7',score:56,pop:54,title:16,rec:62,cross:58,tags:[],votes:{up:380,dn:170}},
-  {name:'Macy Chiasson',record:'10-6',score:52,pop:52,title:14,rec:58,cross:54,tags:[],votes:{up:340,dn:160}},
-],official:[
-  {name:'Kayla Harrison',record:'19-1',champ:true},
-  {name:'Julianna Peña',record:'12-6'},{name:'Raquel Pennington',record:'16-9'},
-  {name:'Norma Dumont',record:'13-2'},{name:'Irene Aldana',record:'15-8'},
-  {name:'Yana Santos',record:'17-8 1NC'},{name:'Ailin Perez',record:'13-2'},
-  {name:'Ketlen Vieira',record:'15-5'},{name:'Karol Rosa',record:'19-7'},
-  {name:'Macy Chiasson',record:'10-6'},
-]},
-};
-
+let DB={};          // populated from data.json
+let META={};        // populated from data.json
 let curDiv='lw', curView='yours';
 
-// localStorage — votes and counts
+// ── LOCALSTORAGE VOTES ─────────────────────────────────────────────────────────
 function lv(){try{return JSON.parse(localStorage.getItem('cr_votes')||'{}');}catch(e){return{};}}
 function sv(v){try{localStorage.setItem('cr_votes',JSON.stringify(v));}catch(e){}}
 function lc(){try{const s=localStorage.getItem('cr_counts');return s?JSON.parse(s):null;}catch(e){return null;}}
-function sc(){const c={};for(const d in DB)c[d]=DB[d].yours.map(f=>({...f.votes}));try{localStorage.setItem('cr_counts',JSON.stringify(c));}catch(e){}}
-
-const saved=lc();
-if(saved){for(const d in saved){if(DB[d])saved[d].forEach((v,i)=>{if(DB[d].yours[i])DB[d].yours[i].votes=v;});}}
+function sc(){
+  const c={};
+  for(const d in DB) c[d]=DB[d].yours.map(f=>({...f.votes}));
+  try{localStorage.setItem('cr_counts',JSON.stringify(c));}catch(e){}
+}
 let myV=lv();
 
-// helpers
+// ── LOAD DATA.JSON ──────────────────────────────────────────────────────────────
+async function loadData(){
+  try{
+    const res=await fetch('data.json?v='+Date.now());
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const json=await res.json();
+    META=json.meta||{};
+    // Merge loaded data with any saved vote counts from localStorage
+    const savedCounts=lc();
+    DB={};
+    for(const divId in json.divisions){
+      const divData=json.divisions[divId];
+      DB[divId]=divData;
+      // Restore vote counts from localStorage (they persist between data.json updates)
+      if(savedCounts&&savedCounts[divId]){
+        divData.yours.forEach((f,i)=>{
+          if(savedCounts[divId][i]) f.votes=savedCounts[divId][i];
+        });
+      }
+    }
+    // Update header dates
+    if(META.updated){
+      document.getElementById('updatedBadge').textContent=META.updated;
+      document.getElementById('syncText').textContent=
+        `Data refreshed weekly · Last sync: ${META.updated} · Next sync: ${META.next_update||'soon'}`;
+    }
+    buildNav();
+    render();
+  } catch(e){
+    document.getElementById('mainContent').innerHTML=
+      `<div class="loading" style="flex-direction:column;gap:12px">
+        <span style="color:var(--red)">Could not load data.json</span>
+        <span style="font-size:12px">${e.message}</span>
+        <span style="font-size:11px;color:var(--muted)">Make sure data.json is in the same folder as index.html</span>
+      </div>`;
+  }
+}
+
+// ── HELPERS ────────────────────────────────────────────────────────────────────
 function fmt(n){return n>=1000?(n/1000).toFixed(1).replace(/\.0$/,'')+'k':String(n);}
-function tagH(tags){return(tags||[]).map(t=>t==='former'?'<span class="tag tag-former">Former Champ</span>':t==='streak'?'<span class="tag tag-streak">Win Streak</span>':'').join('');}
-function sbH(f){return`<div class="score-bars"><div class="mini-bar"><div class="mini-bar-fill" style="height:${f.pop}%;background:#C9A84C"></div></div><div class="mini-bar"><div class="mini-bar-fill" style="height:${f.title}%;background:#D72B2B"></div></div><div class="mini-bar"><div class="mini-bar-fill" style="height:${f.rec}%;background:#378ADD"></div></div></div>`;}
+function tagH(tags){
+  return(tags||[]).map(t=>
+    t==='former'?'<span class="tag tag-former">Former Champ</span>':
+    t==='streak'?'<span class="tag tag-streak">Win Streak</span>':''
+  ).join('');
+}
+function sbH(f){
+  return`<div class="score-bars">
+    <div class="mini-bar"><div class="mini-bar-fill" style="height:${f.pop}%;background:#C9A84C"></div></div>
+    <div class="mini-bar"><div class="mini-bar-fill" style="height:${f.title}%;background:#D72B2B"></div></div>
+    <div class="mini-bar"><div class="mini-bar-fill" style="height:${f.rec}%;background:#378ADD"></div></div>
+  </div>`;
+}
 function vH(f){
   const k=curDiv+'|'+f.name, my=myV[k];
   const uc=my==='up'?'voted-up':my?'locked':'';
   const dc=my==='dn'?'voted-dn':my?'locked':'';
   const ua=my?'':` onclick="cv('${curDiv}','${f.name.replace(/'/g,"\\'")}','up')"`;
   const da=my?'':` onclick="cv('${curDiv}','${f.name.replace(/'/g,"\\'")}','dn')"`;
-  return`<div class="vote-block"><button class="vote-btn up-btn ${uc}"${ua}><span class="thumb">👍</span> ${fmt(f.votes.up)}</button><button class="vote-btn dn-btn ${dc}"${da}><span class="thumb">👎</span> ${fmt(f.votes.dn)}</button></div>`;
+  return`<div class="vote-block">
+    <button class="vote-btn up-btn ${uc}"${ua}><span class="thumb">👍</span> ${fmt(f.votes.up)}</button>
+    <button class="vote-btn dn-btn ${dc}"${da}><span class="thumb">👎</span> ${fmt(f.votes.dn)}</button>
+  </div>`;
 }
 function sentH(y){
-  const up=y.reduce((s,f)=>s+f.votes.up,0),dn=y.reduce((s,f)=>s+f.votes.dn,0),t=up+dn,p=t?Math.round(up/t*100):50;
-  return`<div class="sentiment-row"><span style="color:var(--green);font-weight:700">${p}%</span><span>community approval of this division's rankings</span><div class="sent-track"><div class="sent-fill" style="width:${p}%"></div></div><span style="color:var(--muted2);font-size:10px">${fmt(t)} votes</span></div>`;
+  const up=y.reduce((s,f)=>s+f.votes.up,0),dn=y.reduce((s,f)=>s+f.votes.dn,0);
+  const t=up+dn, p=t?Math.round(up/t*100):50;
+  return`<div class="sentiment-row">
+    <span style="color:var(--green);font-weight:700">${p}%</span>
+    <span>community approval of this division's rankings</span>
+    <div class="sent-track"><div class="sent-fill" style="width:${p}%"></div></div>
+    <span style="color:var(--muted2);font-size:10px">${fmt(t)} votes</span>
+  </div>`;
 }
 
+// ── VOTE ───────────────────────────────────────────────────────────────────────
 function cv(divId,name,dir){
   const k=divId+'|'+name;
   if(myV[k])return;
   myV[k]=dir; sv(myV);
-  const f=DB[divId].yours.find(x=>x.name===name);
+  const f=DB[divId]&&DB[divId].yours.find(x=>x.name===name);
   if(!f)return;
   if(dir==='up')f.votes.up++;else f.votes.dn++;
   sc(); render();
 }
 
-// talking points
+// ── TALKING POINTS ─────────────────────────────────────────────────────────────
 function tp(){
-  const y=DB[curDiv].yours, o=DB[curDiv].official;
+  const data=DB[curDiv];
+  if(!data)return;
+  const y=data.yours, o=data.official||[];
   const diffs=y.map((f,yi)=>{
     if(f.champ)return null;
     const oi=o.findIndex(x=>x.name===f.name);
     const diff=oi===-1?3:(oi+1)-(yi+1);
-    if(diff===0)return null; // skip exact matches — nothing to say
+    if(diff===0)return null;
     return{name:f.name,diff,oi,f};
   }).filter(Boolean).sort((a,b)=>Math.abs(b.diff)-Math.abs(a.diff)).slice(0,3);
+
   if(diffs.length===0){
-    document.getElementById('tpStrip').innerHTML=`<div class="tp-label">Biggest disagreements with official UFC rankings</div><div class="tp-cards"><div class="tp-card" style="border-left-color:var(--muted2)"><div class="tp-num neutral">≈</div><div class="tp-body">Our rankings closely align with the official UFC panel for this division — no major gaps this week.</div></div></div>`;
+    document.getElementById('tpStrip').innerHTML=
+      `<div class="tp-label">Biggest disagreements with official UFC rankings</div>
+       <div class="tp-cards"><div class="tp-card"><div class="tp-num neutral">≈</div>
+       <div class="tp-body">Our rankings closely align with the official UFC panel for this division — no major gaps this week.</div>
+       </div></div>`;
     return;
   }
   function why(item){
-    const f=item.f,d=Math.abs(item.diff);
+    const f=item.f, d=Math.abs(item.diff);
     if(item.diff>0){
       if(f.title>85)return`title pedigree lifts them <strong>${d}</strong> spots above the official panel`;
       if(f.pop>88)return`fan popularity pushes them <strong>${d}</strong> spots above the media vote`;
@@ -470,23 +311,23 @@ function tp(){
     }
   }
   const cards=diffs.map(item=>{
-    const up=item.diff>0,nr=item.oi===-1;
+    const up=item.diff>0, nr=item.oi===-1;
     const cls=nr?'':up?'tp-up':'tp-down', nc=nr?'neutral':up?'up':'down';
     const nt=nr?'NR':up?`↑${item.diff}`:`↓${Math.abs(item.diff)}`;
-    return`<div class="tp-card ${cls}"><div class="tp-num ${nc}">${nt}</div><div class="tp-body"><strong>${item.name}</strong> — ${why(item)}</div></div>`;
+    return`<div class="tp-card ${cls}"><div class="tp-num ${nc}">${nt}</div>
+      <div class="tp-body"><strong>${item.name}</strong> — ${why(item)}</div></div>`;
   }).join('');
-  document.getElementById('tpStrip').innerHTML=`<div class="tp-label">Biggest disagreements with official UFC rankings</div><div class="tp-cards">${cards}</div>`;
+  document.getElementById('tpStrip').innerHTML=
+    `<div class="tp-label">Biggest disagreements with official UFC rankings</div>
+     <div class="tp-cards">${cards}</div>`;
 }
 
-// nav — two fixed rows
+// ── NAV ────────────────────────────────────────────────────────────────────────
 function buildNav(){
-  const tabHtml=(d)=>`<button class="weight-tab${d.id===curDiv?' active':''}" onclick="setDiv('${d.id}')">${d.name} <span class="tab-lbs">${d.lbs}</span></button>`;
-  document.getElementById('navMen').innerHTML=
-    `<span class="nav-row-label">Men's</span>`+DIVS_M.map(tabHtml).join('');
-  document.getElementById('navWomen').innerHTML=
-    `<span class="nav-row-label">Women's</span>`+DIVS_W.map(tabHtml).join('');
+  const tab=d=>`<button class="weight-tab${d.id===curDiv?' active':''}" onclick="setDiv('${d.id}')">${d.name} <span class="tab-lbs">${d.lbs}</span></button>`;
+  document.getElementById('navMen').innerHTML=`<span class="nav-row-label">Men's</span>`+DIVS_M.map(tab).join('');
+  document.getElementById('navWomen').innerHTML=`<span class="nav-row-label">Women's</span>`+DIVS_W.map(tab).join('');
 }
-
 function setDiv(id){curDiv=id;buildNav();render();}
 function setView(v){
   curView=v;
@@ -494,8 +335,15 @@ function setView(v){
   render();
 }
 
+// ── RENDER ─────────────────────────────────────────────────────────────────────
 function render(){
-  const div=ALL_DIVS.find(d=>d.id===curDiv), data=DB[curDiv];
+  const div=ALL_DIVS.find(d=>d.id===curDiv);
+  const data=DB[curDiv];
+  if(!div||!data){
+    document.getElementById('mainContent').innerHTML=
+      `<div class="loading"><span style="color:var(--muted)">No data for this division yet</span></div>`;
+    return;
+  }
   document.getElementById('divLabel').innerHTML=`<strong>${div.name}</strong> · ${div.lbs} lbs`;
   tp();
   const main=document.getElementById('mainContent');
@@ -520,8 +368,7 @@ function render(){
           <div class="row-right">${vH(f)}
             <div class="score-block">
               <div class="score-val">${f.score}</div>
-              <div class="score-lbl">Score</div>
-              ${sbH(f)}
+              <div class="score-lbl">Score</div>${sbH(f)}
             </div>
           </div>
         </div>`).join('')}
@@ -533,12 +380,12 @@ function render(){
         <div class="col-title official">Official UFC Rankings — ${div.name}</div>
         <div style="font-size:10px;color:var(--muted);font-family:'Barlow Condensed',sans-serif;letter-spacing:.05em">Media panel vote</div>
       </div>
-      <div class="fighter-list">${data.official.map((f,i)=>`
+      <div class="fighter-list">${(data.official||[]).map((f,i)=>`
         <div class="fighter-row${f.champ?' champ':''}">
           <div class="rank-num${f.champ?' c':''}">${f.champ?'C':i+1}</div>
           <div class="fighter-info">
             <div class="fighter-name">${f.name}</div>
-            <div class="fighter-meta"><span class="record">${f.record}</span></div>
+            <div class="fighter-meta"><span class="record">${f.record||''}</span></div>
           </div>
           <div class="row-right" style="font-size:10px;color:var(--muted2);font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.05em">
             ${f.champ?'<span style="color:var(--gold)">Champion</span>':'Media vote'}
@@ -548,7 +395,7 @@ function render(){
       <div class="official-note">Official UFC rankings are voted on by a media panel. They do not account for fan popularity, pre-UFC career, or opposition quality scoring.</div>`;
 
   }else{
-    const y=data.yours, o=data.official;
+    const y=data.yours, o=data.official||[];
     const rows=y.map((f,yi)=>{
       const our=yi+1, oi=o.findIndex(x=>x.name===f.name);
       const ot=f.champ?'C':oi===-1?'—':oi+1;
@@ -584,8 +431,8 @@ function render(){
   }
 }
 
-buildNav();
-render();
+// ── BOOT ───────────────────────────────────────────────────────────────────────
+loadData();
 </script>
 </body>
 </html>
