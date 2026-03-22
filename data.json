@@ -3,2330 +3,254 @@
     "updated": "2026-03-21",
     "next_update": "2026-03-28",
     "weights": {
-      "record": 0.3,
+      "record": 0.30,
       "quality": 0.25,
-      "title": 0.2,
+      "title": 0.20,
       "popularity": 0.15,
-      "cross_org": 0.1
+      "cross_org": 0.10
     }
   },
   "divisions": {
     "hw": {
       "yours": [
-        {
-          "name": "Tom Aspinall",
-          "record": "0-0",
-          "score": 70,
-          "pop": 88,
-          "title": 78,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Jon Jones",
-          "record": "0-0",
-          "score": 68,
-          "pop": 92,
-          "title": 70,
-          "rec": 50,
-          "cross": 54,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Stipe Miocic",
-          "record": "0-0",
-          "score": 66,
-          "pop": 84,
-          "title": 70,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Tai Tuivasa",
-          "record": "0-0",
-          "score": 51,
-          "pop": 80,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Derrick Lewis",
-          "record": "0-0",
-          "score": 50,
-          "pop": 88,
-          "title": 10,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Curtis Blaydes",
-          "record": "0-0",
-          "score": 49,
-          "pop": 64,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Jailton Almeida",
-          "record": "0-0",
-          "score": 49,
-          "pop": 68,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Ciryl Gane",
-          "record": "0-0",
-          "score": 48,
-          "pop": 76,
-          "title": 10,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Alexander Volkov",
-          "record": "0-0",
-          "score": 48,
-          "pop": 58,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Sergei Pavlovich",
-          "record": "0-0",
-          "score": 48,
-          "pop": 60,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Tom Aspinall","record":"15-3","score":94,"pop":88,"title":98,"rec":92,"cross":78,"tags":[],"champ":true,"votes":{"up":2240,"dn":210}},
+        {"name":"Jon Jones","record":"27-1 1NC","score":90,"pop":92,"title":100,"rec":86,"cross":88,"tags":["former"],"votes":{"up":2480,"dn":820}},
+        {"name":"Ciryl Gane","record":"13-3","score":82,"pop":76,"title":88,"rec":80,"cross":80,"tags":["former"],"votes":{"up":860,"dn":310}},
+        {"name":"Curtis Blaydes","record":"18-4 1NC","score":76,"pop":64,"title":55,"rec":80,"cross":72,"tags":[],"votes":{"up":640,"dn":220}},
+        {"name":"Stipe Miocic","record":"20-5","score":72,"pop":84,"title":96,"rec":66,"cross":74,"tags":["former"],"votes":{"up":1640,"dn":380}},
+        {"name":"Jailton Almeida","record":"22-2","score":70,"pop":68,"title":35,"rec":82,"cross":72,"tags":["streak"],"votes":{"up":680,"dn":190}},
+        {"name":"Alexander Volkov","record":"38-10","score":65,"pop":58,"title":30,"rec":72,"cross":76,"tags":[],"votes":{"up":480,"dn":160}},
+        {"name":"Derrick Lewis","record":"27-12 1NC","score":61,"pop":88,"title":60,"rec":56,"cross":62,"tags":["former"],"votes":{"up":1480,"dn":560}},
+        {"name":"Sergei Pavlovich","record":"18-3","score":59,"pop":60,"title":30,"rec":70,"cross":62,"tags":[],"votes":{"up":520,"dn":200}},
+        {"name":"Tai Tuivasa","record":"15-8","score":54,"pop":80,"title":20,"rec":54,"cross":58,"tags":[],"votes":{"up":940,"dn":340}}
       ],
       "official": [
-        {
-          "name": "Tom Aspinall",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Jon Jones",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Curtis Blaydes",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Ciryl Gane",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Jailton Almeida",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Stipe Miocic",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Alexander Volkov",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Sergei Pavlovich",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Derrick Lewis",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Tai Tuivasa",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Tom Aspinall","record":"15-3","champ":true},
+        {"name":"Jon Jones","record":"27-1 1NC"},{"name":"Curtis Blaydes","record":"18-4 1NC"},
+        {"name":"Ciryl Gane","record":"13-3"},{"name":"Jailton Almeida","record":"22-2"},
+        {"name":"Stipe Miocic","record":"20-5"},{"name":"Alexander Volkov","record":"38-10"},
+        {"name":"Sergei Pavlovich","record":"18-3"},{"name":"Derrick Lewis","record":"27-12 1NC"},
+        {"name":"Tai Tuivasa","record":"15-8"}
       ]
     },
     "lhw": {
       "yours": [
-        {
-          "name": "Alex Pereira",
-          "record": "0-0",
-          "score": 79,
-          "pop": 97,
-          "title": 100,
-          "rec": 50,
-          "cross": 78,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Jiri Prochazka",
-          "record": "0-0",
-          "score": 60,
-          "pop": 84,
-          "title": 20,
-          "rec": 50,
-          "cross": 90,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Jamahal Hill",
-          "record": "0-0",
-          "score": 55,
-          "pop": 78,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Jan Blachowicz",
-          "record": "0-0",
-          "score": 55,
-          "pop": 66,
-          "title": 28,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Khalil Rountree",
-          "record": "0-0",
-          "score": 50,
-          "pop": 72,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Magomed Ankalaev",
-          "record": "0-0",
-          "score": 49,
-          "pop": 68,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Carlos Ulberg",
-          "record": "0-0",
-          "score": 48,
-          "pop": 62,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Aleksandar Rakic",
-          "record": "0-0",
-          "score": 48,
-          "pop": 58,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Nikita Krylov",
-          "record": "0-0",
-          "score": 48,
-          "pop": 60,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Dominick Reyes",
-          "record": "0-0",
-          "score": 45,
-          "pop": 64,
-          "title": 0,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Alex Pereira","record":"12-3","score":96,"pop":97,"title":98,"rec":90,"cross":92,"tags":[],"champ":true,"votes":{"up":2880,"dn":240}},
+        {"name":"Magomed Ankalaev","record":"19-2","score":85,"pop":68,"title":72,"rec":90,"cross":80,"tags":[],"votes":{"up":720,"dn":260}},
+        {"name":"Jamahal Hill","record":"13-2 1NC","score":79,"pop":78,"title":85,"rec":76,"cross":72,"tags":["former"],"votes":{"up":1040,"dn":320}},
+        {"name":"Jiri Prochazka","record":"32-5","score":77,"pop":84,"title":90,"rec":74,"cross":86,"tags":["former"],"votes":{"up":1420,"dn":360}},
+        {"name":"Khalil Rountree","record":"13-5 1NC","score":72,"pop":72,"title":40,"rec":78,"cross":64,"tags":["streak"],"votes":{"up":680,"dn":210}},
+        {"name":"Carlos Ulberg","record":"13-2","score":68,"pop":62,"title":25,"rec":80,"cross":62,"tags":["streak"],"votes":{"up":540,"dn":170}},
+        {"name":"Dominick Reyes","record":"13-5","score":62,"pop":64,"title":68,"rec":60,"cross":66,"tags":[],"votes":{"up":620,"dn":280}},
+        {"name":"Aleksandar Rakic","record":"15-4 1NC","score":59,"pop":58,"title":40,"rec":66,"cross":64,"tags":[],"votes":{"up":480,"dn":190}},
+        {"name":"Nikita Krylov","record":"30-10","score":56,"pop":60,"title":30,"rec":64,"cross":66,"tags":[],"votes":{"up":520,"dn":220}},
+        {"name":"Jan Blachowicz","record":"30-11 1NC","score":54,"pop":66,"title":78,"rec":52,"cross":70,"tags":["former"],"votes":{"up":840,"dn":360}}
       ],
       "official": [
-        {
-          "name": "Alex Pereira",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Magomed Ankalaev",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Jiri Prochazka",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Jamahal Hill",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Khalil Rountree",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Carlos Ulberg",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Jan Blachowicz",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Dominick Reyes",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Aleksandar Rakic",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Nikita Krylov",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Alex Pereira","record":"12-3","champ":true},
+        {"name":"Magomed Ankalaev","record":"19-2"},{"name":"Jiri Prochazka","record":"32-5"},
+        {"name":"Jamahal Hill","record":"13-2 1NC"},{"name":"Khalil Rountree","record":"13-5 1NC"},
+        {"name":"Carlos Ulberg","record":"13-2"},{"name":"Jan Blachowicz","record":"30-11 1NC"},
+        {"name":"Dominick Reyes","record":"13-5"},{"name":"Aleksandar Rakic","record":"15-4 1NC"},
+        {"name":"Nikita Krylov","record":"30-10"}
       ]
     },
     "mw": {
       "yours": [
-        {
-          "name": "Khamzat Chimaev",
-          "record": "0-0",
-          "score": 69,
-          "pop": 90,
-          "title": 60,
-          "rec": 50,
-          "cross": 76,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Robert Whittaker",
-          "record": "0-0",
-          "score": 60,
-          "pop": 78,
-          "title": 46,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Dricus du Plessis",
-          "record": "0-0",
-          "score": 57,
-          "pop": 80,
-          "title": 28,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Sean Strickland",
-          "record": "0-0",
-          "score": 56,
-          "pop": 82,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Reinier de Ridder",
-          "record": "0-0",
-          "score": 53,
-          "pop": 62,
-          "title": 20,
-          "rec": 50,
-          "cross": 100,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Caio Borralho",
-          "record": "0-0",
-          "score": 50,
-          "pop": 70,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Nassourdine Imavov",
-          "record": "0-0",
-          "score": 49,
-          "pop": 68,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Anthony Hernandez",
-          "record": "0-0",
-          "score": 49,
-          "pop": 65,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Gregory Rodrigues",
-          "record": "0-0",
-          "score": 48,
-          "pop": 60,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Roman Dolidze",
-          "record": "0-0",
-          "score": 47,
-          "pop": 54,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Khamzat Chimaev","record":"15-0","score":95,"pop":90,"title":95,"rec":98,"cross":88,"tags":[],"champ":true,"votes":{"up":2100,"dn":380}},
+        {"name":"Dricus du Plessis","record":"22-3","score":87,"pop":80,"title":90,"rec":84,"cross":82,"tags":["former"],"votes":{"up":1420,"dn":340}},
+        {"name":"Nassourdine Imavov","record":"15-4","score":80,"pop":68,"title":45,"rec":86,"cross":80,"tags":["streak"],"votes":{"up":780,"dn":220}},
+        {"name":"Reinier de Ridder","record":"18-2","score":77,"pop":62,"title":55,"rec":82,"cross":92,"tags":["former"],"votes":{"up":640,"dn":180}},
+        {"name":"Caio Borralho","record":"18-1","score":74,"pop":70,"title":40,"rec":84,"cross":70,"tags":["streak"],"votes":{"up":720,"dn":200}},
+        {"name":"Anthony Hernandez","record":"14-2","score":71,"pop":65,"title":30,"rec":80,"cross":66,"tags":["streak"],"votes":{"up":580,"dn":160}},
+        {"name":"Sean Strickland","record":"29-6","score":68,"pop":82,"title":80,"rec":66,"cross":74,"tags":["former"],"votes":{"up":1240,"dn":680}},
+        {"name":"Robert Whittaker","record":"26-7","score":65,"pop":78,"title":88,"rec":62,"cross":78,"tags":["former"],"votes":{"up":1380,"dn":290}},
+        {"name":"Gregory Rodrigues","record":"17-4","score":60,"pop":60,"title":20,"rec":70,"cross":62,"tags":[],"votes":{"up":420,"dn":140}},
+        {"name":"Roman Dolidze","record":"14-4","score":57,"pop":54,"title":20,"rec":68,"cross":60,"tags":[],"votes":{"up":380,"dn":160}}
       ],
       "official": [
-        {
-          "name": "Khamzat Chimaev",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Dricus du Plessis",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Sean Strickland",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Caio Borralho",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Nassourdine Imavov",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Robert Whittaker",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Reinier de Ridder",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Anthony Hernandez",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Gregory Rodrigues",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Roman Dolidze",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Khamzat Chimaev","record":"15-0","champ":true},
+        {"name":"Dricus du Plessis","record":"22-3"},{"name":"Sean Strickland","record":"29-6"},
+        {"name":"Caio Borralho","record":"18-1"},{"name":"Nassourdine Imavov","record":"15-4"},
+        {"name":"Robert Whittaker","record":"26-7"},{"name":"Reinier de Ridder","record":"18-2"},
+        {"name":"Anthony Hernandez","record":"14-2"},{"name":"Gregory Rodrigues","record":"17-4"},
+        {"name":"Roman Dolidze","record":"14-4"}
       ]
     },
     "ww": {
       "yours": [
-        {
-          "name": "Jack Della Maddalena",
-          "record": "0-0",
-          "score": 66,
-          "pop": 82,
-          "title": 60,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Islam Makhachev",
-          "record": "0-0",
-          "score": 70,
-          "pop": 88,
-          "title": 70,
-          "rec": 50,
-          "cross": 80,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Kamaru Usman",
-          "record": "0-0",
-          "score": 63,
-          "pop": 84,
-          "title": 50,
-          "rec": 50,
-          "cross": 62,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Leon Edwards",
-          "record": "0-0",
-          "score": 58,
-          "pop": 74,
-          "title": 36,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Belal Muhammad",
-          "record": "0-0",
-          "score": 53,
-          "pop": 66,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Shavkat Rakhmonov",
-          "record": "0-0",
-          "score": 51,
-          "pop": 78,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Joaquin Buckley",
-          "record": "0-0",
-          "score": 51,
-          "pop": 80,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Ian Machado Garry",
-          "record": "0-0",
-          "score": 50,
-          "pop": 76,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Michael Morales",
-          "record": "0-0",
-          "score": 49,
-          "pop": 65,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Sean Brady",
-          "record": "0-0",
-          "score": 48,
-          "pop": 62,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Jack Della Maddalena","record":"18-2","score":93,"pop":82,"title":95,"rec":96,"cross":78,"tags":[],"champ":true,"votes":{"up":1820,"dn":210}},
+        {"name":"Shavkat Rakhmonov","record":"19-0","score":91,"pop":78,"title":60,"rec":98,"cross":85,"tags":["streak"],"votes":{"up":1340,"dn":290}},
+        {"name":"Islam Makhachev","record":"28-1","score":89,"pop":88,"title":100,"rec":86,"cross":90,"tags":["former"],"votes":{"up":1580,"dn":470}},
+        {"name":"Kamaru Usman","record":"21-4","score":82,"pop":84,"title":95,"rec":78,"cross":86,"tags":["former"],"votes":{"up":1240,"dn":560}},
+        {"name":"Ian Machado Garry","record":"16-0","score":78,"pop":76,"title":40,"rec":88,"cross":74,"tags":["streak"],"votes":{"up":890,"dn":310}},
+        {"name":"Sean Brady","record":"18-1","score":74,"pop":62,"title":40,"rec":82,"cross":68,"tags":[],"votes":{"up":560,"dn":200}},
+        {"name":"Michael Morales","record":"17-0","score":71,"pop":65,"title":35,"rec":85,"cross":60,"tags":["streak"],"votes":{"up":620,"dn":180}},
+        {"name":"Belal Muhammad","record":"24-4","score":68,"pop":66,"title":68,"rec":72,"cross":65,"tags":["former"],"votes":{"up":720,"dn":340}},
+        {"name":"Leon Edwards","record":"22-4","score":65,"pop":74,"title":82,"rec":62,"cross":72,"tags":["former"],"votes":{"up":980,"dn":420}},
+        {"name":"Joaquin Buckley","record":"22-6","score":61,"pop":80,"title":30,"rec":66,"cross":58,"tags":[],"votes":{"up":840,"dn":260}}
       ],
       "official": [
-        {
-          "name": "Jack Della Maddalena",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Shavkat Rakhmonov",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Belal Muhammad",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Sean Brady",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Ian Machado Garry",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Leon Edwards",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Kamaru Usman",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Michael Morales",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Joaquin Buckley",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Islam Makhachev",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Jack Della Maddalena","record":"18-2","champ":true},
+        {"name":"Shavkat Rakhmonov","record":"19-0"},{"name":"Belal Muhammad","record":"24-4"},
+        {"name":"Sean Brady","record":"18-1"},{"name":"Ian Machado Garry","record":"16-0"},
+        {"name":"Leon Edwards","record":"22-4"},{"name":"Kamaru Usman","record":"21-4"},
+        {"name":"Michael Morales","record":"17-0"},{"name":"Joaquin Buckley","record":"22-6"},
+        {"name":"Islam Makhachev","record":"28-1"}
       ]
     },
     "lw": {
       "yours": [
-        {
-          "name": "Ilia Topuria",
-          "record": "0-0",
-          "score": 71,
-          "pop": 95,
-          "title": 68,
-          "rec": 50,
-          "cross": 66,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Islam Makhachev",
-          "record": "0-0",
-          "score": 70,
-          "pop": 88,
-          "title": 70,
-          "rec": 50,
-          "cross": 80,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Max Holloway",
-          "record": "0-0",
-          "score": 62,
-          "pop": 91,
-          "title": 44,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Charles Oliveira",
-          "record": "0-0",
-          "score": 61,
-          "pop": 88,
-          "title": 36,
-          "rec": 50,
-          "cross": 56,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Dustin Poirier",
-          "record": "0-0",
-          "score": 57,
-          "pop": 97,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Michael Chandler",
-          "record": "0-0",
-          "score": 57,
-          "pop": 88,
-          "title": 20,
-          "rec": 50,
-          "cross": 100,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Justin Gaethje",
-          "record": "0-0",
-          "score": 55,
-          "pop": 94,
-          "title": 10,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Arman Tsarukyan",
-          "record": "0-0",
-          "score": 50,
-          "pop": 72,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Dan Hooker",
-          "record": "0-0",
-          "score": 50,
-          "pop": 74,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Beneil Dariush",
-          "record": "0-0",
-          "score": 48,
-          "pop": 58,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Ilia Topuria","record":"17-0","score":97,"pop":95,"title":100,"rec":98,"cross":80,"tags":[],"champ":true,"votes":{"up":2401,"dn":180}},
+        {"name":"Arman Tsarukyan","record":"23-3","score":88,"pop":72,"title":55,"rec":92,"cross":84,"tags":["streak"],"votes":{"up":1142,"dn":341}},
+        {"name":"Justin Gaethje","record":"25-5","score":83,"pop":94,"title":78,"rec":80,"cross":75,"tags":["former"],"votes":{"up":1820,"dn":220}},
+        {"name":"Charles Oliveira","record":"34-10","score":81,"pop":88,"title":90,"rec":76,"cross":80,"tags":["former"],"votes":{"up":2105,"dn":412}},
+        {"name":"Dustin Poirier","record":"30-8","score":78,"pop":97,"title":74,"rec":72,"cross":76,"tags":[],"votes":{"up":1980,"dn":190}},
+        {"name":"Islam Makhachev","record":"28-1","score":76,"pop":85,"title":95,"rec":70,"cross":88,"tags":["former"],"votes":{"up":1650,"dn":540}},
+        {"name":"Beneil Dariush","record":"22-5-1","score":72,"pop":58,"title":40,"rec":79,"cross":70,"tags":[],"votes":{"up":620,"dn":180}},
+        {"name":"Dan Hooker","record":"24-13","score":66,"pop":74,"title":30,"rec":64,"cross":72,"tags":[],"votes":{"up":740,"dn":310}},
+        {"name":"Max Holloway","record":"26-8","score":64,"pop":91,"title":72,"rec":60,"cross":78,"tags":["former"],"votes":{"up":2200,"dn":280}},
+        {"name":"Michael Chandler","record":"23-9","score":62,"pop":88,"title":68,"rec":58,"cross":90,"tags":["former"],"votes":{"up":1400,"dn":620}}
       ],
       "official": [
-        {
-          "name": "Ilia Topuria",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Justin Gaethje",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Charles Oliveira",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Arman Tsarukyan",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Dustin Poirier",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Dan Hooker",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Beneil Dariush",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Max Holloway",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Michael Chandler",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Islam Makhachev",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Ilia Topuria","record":"17-0","champ":true},
+        {"name":"Justin Gaethje","record":"25-5"},{"name":"Charles Oliveira","record":"34-10"},
+        {"name":"Arman Tsarukyan","record":"23-3"},{"name":"Dustin Poirier","record":"30-8"},
+        {"name":"Dan Hooker","record":"24-13"},{"name":"Beneil Dariush","record":"22-5-1"},
+        {"name":"Max Holloway","record":"26-8"},{"name":"Michael Chandler","record":"23-9"},
+        {"name":"Islam Makhachev","record":"28-1"}
       ]
     },
     "fw": {
       "yours": [
-        {
-          "name": "Alexander Volkanovski",
-          "record": "0-0",
-          "score": 70,
-          "pop": 92,
-          "title": 70,
-          "rec": 50,
-          "cross": 80,
-          "tags": [
-            "former"
-          ],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Ilia Topuria",
-          "record": "0-0",
-          "score": 71,
-          "pop": 95,
-          "title": 68,
-          "rec": 50,
-          "cross": 66,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Diego Lopes",
-          "record": "0-0",
-          "score": 51,
-          "pop": 80,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Lerone Murphy",
-          "record": "0-0",
-          "score": 50,
-          "pop": 70,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Kevin Vallejos",
-          "record": "0-0",
-          "score": 50,
-          "pop": 72,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Giga Chikadze",
-          "record": "0-0",
-          "score": 50,
-          "pop": 74,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Yair Rodriguez",
-          "record": "0-0",
-          "score": 50,
-          "pop": 76,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Movsar Evloev",
-          "record": "0-0",
-          "score": 49,
-          "pop": 65,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Arnold Allen",
-          "record": "0-0",
-          "score": 49,
-          "pop": 64,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Brian Ortega",
-          "record": "0-0",
-          "score": 47,
-          "pop": 82,
-          "title": 0,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Alexander Volkanovski","record":"28-4","score":95,"pop":92,"title":98,"rec":90,"cross":88,"tags":[],"champ":true,"votes":{"up":2620,"dn":310}},
+        {"name":"Diego Lopes","record":"26-6","score":86,"pop":80,"title":60,"rec":90,"cross":82,"tags":["streak"],"votes":{"up":1080,"dn":280}},
+        {"name":"Movsar Evloev","record":"18-0","score":82,"pop":65,"title":42,"rec":94,"cross":72,"tags":["streak"],"votes":{"up":720,"dn":190}},
+        {"name":"Lerone Murphy","record":"16-0-1","score":80,"pop":70,"title":40,"rec":92,"cross":74,"tags":["streak"],"votes":{"up":840,"dn":210}},
+        {"name":"Brian Ortega","record":"16-3 1NC","score":74,"pop":82,"title":78,"rec":72,"cross":70,"tags":[],"votes":{"up":1240,"dn":360}},
+        {"name":"Kevin Vallejos","record":"18-1","score":71,"pop":72,"title":30,"rec":84,"cross":64,"tags":["streak"],"votes":{"up":680,"dn":180}},
+        {"name":"Giga Chikadze","record":"15-4","score":67,"pop":74,"title":28,"rec":74,"cross":68,"tags":[],"votes":{"up":720,"dn":260}},
+        {"name":"Arnold Allen","record":"18-2","score":64,"pop":64,"title":25,"rec":78,"cross":62,"tags":[],"votes":{"up":560,"dn":180}},
+        {"name":"Yair Rodriguez","record":"17-5 1NC","score":61,"pop":76,"title":50,"rec":64,"cross":64,"tags":[],"votes":{"up":840,"dn":340}},
+        {"name":"Ilia Topuria","record":"17-0","score":60,"pop":95,"title":90,"rec":98,"cross":80,"tags":["former"],"votes":{"up":2100,"dn":200}}
       ],
       "official": [
-        {
-          "name": "Alexander Volkanovski",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Diego Lopes",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Movsar Evloev",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Lerone Murphy",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Brian Ortega",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Kevin Vallejos",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Giga Chikadze",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Arnold Allen",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Yair Rodriguez",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Ilia Topuria",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Alexander Volkanovski","record":"28-4","champ":true},
+        {"name":"Diego Lopes","record":"26-6"},{"name":"Movsar Evloev","record":"18-0"},
+        {"name":"Lerone Murphy","record":"16-0-1"},{"name":"Brian Ortega","record":"16-3 1NC"},
+        {"name":"Kevin Vallejos","record":"18-1"},{"name":"Giga Chikadze","record":"15-4"},
+        {"name":"Arnold Allen","record":"18-2"},{"name":"Yair Rodriguez","record":"17-5 1NC"},
+        {"name":"Ilia Topuria","record":"17-0"}
       ]
     },
     "bw": {
       "yours": [
-        {
-          "name": "Petr Yan",
-          "record": "0-0",
-          "score": 76,
-          "pop": 82,
-          "title": 98,
-          "rec": 50,
-          "cross": 80,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Henry Cejudo",
-          "record": "0-0",
-          "score": 66,
-          "pop": 82,
-          "title": 56,
-          "rec": 50,
-          "cross": 76,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Deiveson Figueiredo",
-          "record": "0-0",
-          "score": 61,
-          "pop": 70,
-          "title": 56,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Merab Dvalishvili",
-          "record": "0-0",
-          "score": 56,
-          "pop": 74,
-          "title": 20,
-          "rec": 50,
-          "cross": 60,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Raul Rosas Jr.",
-          "record": "0-0",
-          "score": 51,
-          "pop": 78,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Cory Sandhagen",
-          "record": "0-0",
-          "score": 50,
-          "pop": 76,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Umar Nurmagomedov",
-          "record": "0-0",
-          "score": 50,
-          "pop": 70,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Marlon Vera",
-          "record": "0-0",
-          "score": 50,
-          "pop": 72,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Song Yadong",
-          "record": "0-0",
-          "score": 49,
-          "pop": 66,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Rob Font",
-          "record": "0-0",
-          "score": 48,
-          "pop": 60,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Petr Yan","record":"20-5","score":92,"pop":82,"title":95,"rec":86,"cross":84,"tags":[],"champ":true,"votes":{"up":1840,"dn":360}},
+        {"name":"Merab Dvalishvili","record":"18-4","score":87,"pop":74,"title":88,"rec":88,"cross":76,"tags":["former"],"votes":{"up":1120,"dn":290}},
+        {"name":"Cory Sandhagen","record":"17-5","score":81,"pop":76,"title":65,"rec":82,"cross":72,"tags":[],"votes":{"up":940,"dn":260}},
+        {"name":"Henry Cejudo","record":"16-3","score":78,"pop":82,"title":92,"rec":74,"cross":90,"tags":["former"],"votes":{"up":1340,"dn":440}},
+        {"name":"Umar Nurmagomedov","record":"18-0","score":76,"pop":70,"title":38,"rec":90,"cross":78,"tags":["streak"],"votes":{"up":860,"dn":240}},
+        {"name":"Song Yadong","record":"22-7-1","score":72,"pop":66,"title":32,"rec":78,"cross":70,"tags":[],"votes":{"up":620,"dn":220}},
+        {"name":"Marlon Vera","record":"22-10-1","score":68,"pop":72,"title":30,"rec":72,"cross":68,"tags":[],"votes":{"up":740,"dn":300}},
+        {"name":"Raul Rosas Jr.","record":"12-1","score":65,"pop":78,"title":25,"rec":76,"cross":58,"tags":["streak"],"votes":{"up":920,"dn":280}},
+        {"name":"Deiveson Figueiredo","record":"23-4-1","score":62,"pop":70,"title":65,"rec":64,"cross":72,"tags":["former"],"votes":{"up":820,"dn":340}},
+        {"name":"Rob Font","record":"20-8","score":58,"pop":60,"title":22,"rec":68,"cross":60,"tags":[],"votes":{"up":480,"dn":200}}
       ],
       "official": [
-        {
-          "name": "Petr Yan",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Merab Dvalishvili",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Cory Sandhagen",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Umar Nurmagomedov",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Song Yadong",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Henry Cejudo",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Marlon Vera",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Raul Rosas Jr.",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Deiveson Figueiredo",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Rob Font",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Petr Yan","record":"20-5","champ":true},
+        {"name":"Merab Dvalishvili","record":"18-4"},{"name":"Cory Sandhagen","record":"17-5"},
+        {"name":"Umar Nurmagomedov","record":"18-0"},{"name":"Song Yadong","record":"22-7-1"},
+        {"name":"Henry Cejudo","record":"16-3"},{"name":"Marlon Vera","record":"22-10-1"},
+        {"name":"Raul Rosas Jr.","record":"12-1"},{"name":"Deiveson Figueiredo","record":"23-4-1"},
+        {"name":"Rob Font","record":"20-8"}
       ]
     },
     "flw": {
       "yours": [
-        {
-          "name": "Joshua Van",
-          "record": "0-0",
-          "score": 64,
-          "pop": 74,
-          "title": 60,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Brandon Moreno",
-          "record": "0-0",
-          "score": 63,
-          "pop": 86,
-          "title": 48,
-          "rec": 50,
-          "cross": 58,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Alexandre Pantoja",
-          "record": "0-0",
-          "score": 60,
-          "pop": 80,
-          "title": 44,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Kyoji Horiguchi",
-          "record": "0-0",
-          "score": 58,
-          "pop": 66,
-          "title": 20,
-          "rec": 50,
-          "cross": 100,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Kai Kara-France",
-          "record": "0-0",
-          "score": 50,
-          "pop": 70,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Amir Albazi",
-          "record": "0-0",
-          "score": 49,
-          "pop": 66,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Tatsuro Taira",
-          "record": "0-0",
-          "score": 49,
-          "pop": 68,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Manel Kape",
-          "record": "0-0",
-          "score": 48,
-          "pop": 62,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Matheus Nicolau",
-          "record": "0-0",
-          "score": 48,
-          "pop": 58,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Tim Elliott",
-          "record": "0-0",
-          "score": 48,
-          "pop": 62,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Joshua Van","record":"16-2","score":90,"pop":74,"title":90,"rec":86,"cross":72,"tags":[],"champ":true,"votes":{"up":1240,"dn":210}},
+        {"name":"Alexandre Pantoja","record":"28-5","score":88,"pop":80,"title":95,"rec":84,"cross":78,"tags":["former"],"votes":{"up":1420,"dn":290}},
+        {"name":"Brandon Moreno","record":"22-8-2","score":82,"pop":86,"title":90,"rec":78,"cross":80,"tags":["former"],"votes":{"up":1680,"dn":320}},
+        {"name":"Amir Albazi","record":"17-1","score":78,"pop":66,"title":40,"rec":86,"cross":74,"tags":["streak"],"votes":{"up":720,"dn":200}},
+        {"name":"Kai Kara-France","record":"25-11 1NC","score":72,"pop":70,"title":58,"rec":72,"cross":70,"tags":[],"votes":{"up":640,"dn":240}},
+        {"name":"Tatsuro Taira","record":"16-0","score":70,"pop":68,"title":32,"rec":86,"cross":66,"tags":["streak"],"votes":{"up":680,"dn":190}},
+        {"name":"Manel Kape","record":"19-6","score":66,"pop":62,"title":28,"rec":72,"cross":64,"tags":[],"votes":{"up":520,"dn":200}},
+        {"name":"Matheus Nicolau","record":"19-4-1","score":63,"pop":58,"title":25,"rec":70,"cross":62,"tags":[],"votes":{"up":460,"dn":180}},
+        {"name":"Kyoji Horiguchi","record":"32-5","score":60,"pop":66,"title":72,"rec":60,"cross":86,"tags":["former"],"votes":{"up":740,"dn":260}},
+        {"name":"Tim Elliott","record":"20-14-1","score":54,"pop":62,"title":20,"rec":56,"cross":58,"tags":[],"votes":{"up":480,"dn":220}}
       ],
       "official": [
-        {
-          "name": "Joshua Van",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Alexandre Pantoja",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Amir Albazi",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Brandon Moreno",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Kai Kara-France",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Tatsuro Taira",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Manel Kape",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Matheus Nicolau",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Kyoji Horiguchi",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Tim Elliott",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Joshua Van","record":"16-2","champ":true},
+        {"name":"Alexandre Pantoja","record":"28-5"},{"name":"Amir Albazi","record":"17-1"},
+        {"name":"Brandon Moreno","record":"22-8-2"},{"name":"Kai Kara-France","record":"25-11 1NC"},
+        {"name":"Tatsuro Taira","record":"16-0"},{"name":"Manel Kape","record":"19-6"},
+        {"name":"Matheus Nicolau","record":"19-4-1"},{"name":"Kyoji Horiguchi","record":"32-5"},
+        {"name":"Tim Elliott","record":"20-14-1"}
       ]
     },
     "wsw": {
       "yours": [
-        {
-          "name": "Mackenzie Dern",
-          "record": "0-0",
-          "score": 65,
-          "pop": 80,
-          "title": 60,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Zhang Weili",
-          "record": "0-0",
-          "score": 68,
-          "pop": 88,
-          "title": 70,
-          "rec": 50,
-          "cross": 60,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Tatiana Suarez",
-          "record": "0-0",
-          "score": 50,
-          "pop": 72,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Virna Jandiroba",
-          "record": "0-0",
-          "score": 49,
-          "pop": 66,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Xiaonan Yan",
-          "record": "0-0",
-          "score": 49,
-          "pop": 64,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Amanda Lemos",
-          "record": "0-0",
-          "score": 49,
-          "pop": 68,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Gillian Robertson",
-          "record": "0-0",
-          "score": 48,
-          "pop": 62,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Angela Hill",
-          "record": "0-0",
-          "score": 48,
-          "pop": 60,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Loopy Godinez",
-          "record": "0-0",
-          "score": 48,
-          "pop": 58,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Iasmin Lucindo",
-          "record": "0-0",
-          "score": 47,
-          "pop": 54,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Mackenzie Dern","record":"16-5","score":88,"pop":80,"title":88,"rec":78,"cross":72,"tags":[],"champ":true,"votes":{"up":1420,"dn":380}},
+        {"name":"Zhang Weili","record":"26-4","score":94,"pop":88,"title":96,"rec":92,"cross":86,"tags":["former"],"votes":{"up":2100,"dn":240}},
+        {"name":"Virna Jandiroba","record":"22-4","score":82,"pop":66,"title":60,"rec":84,"cross":76,"tags":[],"votes":{"up":720,"dn":240}},
+        {"name":"Tatiana Suarez","record":"11-1","score":80,"pop":72,"title":52,"rec":86,"cross":68,"tags":[],"votes":{"up":840,"dn":220}},
+        {"name":"Xiaonan Yan","record":"19-5 1NC","score":76,"pop":64,"title":42,"rec":80,"cross":72,"tags":[],"votes":{"up":640,"dn":210}},
+        {"name":"Gillian Robertson","record":"14-6","score":72,"pop":62,"title":28,"rec":76,"cross":66,"tags":["streak"],"votes":{"up":560,"dn":190}},
+        {"name":"Amanda Lemos","record":"15-5-1","score":68,"pop":68,"title":32,"rec":72,"cross":64,"tags":[],"votes":{"up":620,"dn":260}},
+        {"name":"Angela Hill","record":"18-15","score":60,"pop":60,"title":18,"rec":60,"cross":58,"tags":[],"votes":{"up":420,"dn":200}},
+        {"name":"Iasmin Lucindo","record":"18-6","score":57,"pop":54,"title":15,"rec":66,"cross":56,"tags":[],"votes":{"up":380,"dn":170}},
+        {"name":"Loopy Godinez","record":"11-4","score":54,"pop":58,"title":14,"rec":62,"cross":54,"tags":[],"votes":{"up":360,"dn":180}}
       ],
       "official": [
-        {
-          "name": "Mackenzie Dern",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Zhang Weili",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Virna Jandiroba",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Tatiana Suarez",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Xiaonan Yan",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Gillian Robertson",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Amanda Lemos",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Angela Hill",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Iasmin Lucindo",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Loopy Godinez",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Mackenzie Dern","record":"16-5","champ":true},
+        {"name":"Zhang Weili","record":"26-4"},{"name":"Virna Jandiroba","record":"22-4"},
+        {"name":"Tatiana Suarez","record":"11-1"},{"name":"Xiaonan Yan","record":"19-5 1NC"},
+        {"name":"Gillian Robertson","record":"14-6"},{"name":"Amanda Lemos","record":"15-5-1"},
+        {"name":"Angela Hill","record":"18-15"},{"name":"Iasmin Lucindo","record":"18-6"},
+        {"name":"Loopy Godinez","record":"11-4"}
       ]
     },
     "wflw": {
       "yours": [
-        {
-          "name": "Valentina Shevchenko",
-          "record": "0-0",
-          "score": 79,
-          "pop": 94,
-          "title": 100,
-          "rec": 50,
-          "cross": 90,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Alexa Grasso",
-          "record": "0-0",
-          "score": 57,
-          "pop": 78,
-          "title": 28,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Natalia Silva",
-          "record": "0-0",
-          "score": 50,
-          "pop": 74,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Manon Fiorot",
-          "record": "0-0",
-          "score": 50,
-          "pop": 72,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Erin Blanchfield",
-          "record": "0-0",
-          "score": 50,
-          "pop": 72,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Maycee Barber",
-          "record": "0-0",
-          "score": 50,
-          "pop": 70,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Jessica Andrade",
-          "record": "0-0",
-          "score": 50,
-          "pop": 74,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Taila Santos",
-          "record": "0-0",
-          "score": 49,
-          "pop": 64,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Jasmine Jasudavicius",
-          "record": "0-0",
-          "score": 47,
-          "pop": 52,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Viviane Araujo",
-          "record": "0-0",
-          "score": 47,
-          "pop": 56,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Valentina Shevchenko","record":"26-4-1","score":97,"pop":94,"title":100,"rec":92,"cross":90,"tags":[],"champ":true,"votes":{"up":3100,"dn":280}},
+        {"name":"Natalia Silva","record":"20-5-1","score":84,"pop":74,"title":42,"rec":86,"cross":74,"tags":["streak"],"votes":{"up":840,"dn":220}},
+        {"name":"Manon Fiorot","record":"13-2","score":82,"pop":72,"title":40,"rec":86,"cross":78,"tags":[],"votes":{"up":780,"dn":210}},
+        {"name":"Alexa Grasso","record":"16-5-1","score":79,"pop":78,"title":82,"rec":76,"cross":72,"tags":["former"],"votes":{"up":1120,"dn":340}},
+        {"name":"Erin Blanchfield","record":"14-2","score":76,"pop":72,"title":38,"rec":82,"cross":66,"tags":[],"votes":{"up":840,"dn":240}},
+        {"name":"Taila Santos","record":"22-4","score":70,"pop":64,"title":58,"rec":72,"cross":68,"tags":[],"votes":{"up":620,"dn":220}},
+        {"name":"Maycee Barber","record":"15-2","score":66,"pop":70,"title":22,"rec":74,"cross":60,"tags":[],"votes":{"up":720,"dn":240}},
+        {"name":"Jessica Andrade","record":"28-12","score":63,"pop":74,"title":78,"rec":62,"cross":76,"tags":["former"],"votes":{"up":840,"dn":360}},
+        {"name":"Jasmine Jasudavicius","record":"14-4","score":58,"pop":52,"title":16,"rec":66,"cross":56,"tags":[],"votes":{"up":380,"dn":160}},
+        {"name":"Viviane Araujo","record":"14-6","score":54,"pop":56,"title":20,"rec":62,"cross":58,"tags":[],"votes":{"up":420,"dn":200}}
       ],
       "official": [
-        {
-          "name": "Valentina Shevchenko",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Natalia Silva",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Manon Fiorot",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Alexa Grasso",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Erin Blanchfield",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Taila Santos",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Maycee Barber",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Jessica Andrade",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Jasmine Jasudavicius",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Viviane Araujo",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Valentina Shevchenko","record":"26-4-1","champ":true},
+        {"name":"Natalia Silva","record":"20-5-1"},{"name":"Manon Fiorot","record":"13-2"},
+        {"name":"Alexa Grasso","record":"16-5-1"},{"name":"Erin Blanchfield","record":"14-2"},
+        {"name":"Taila Santos","record":"22-4"},{"name":"Maycee Barber","record":"15-2"},
+        {"name":"Jessica Andrade","record":"28-12"},{"name":"Jasmine Jasudavicius","record":"14-4"},
+        {"name":"Viviane Araujo","record":"14-6"}
       ]
     },
     "wbw": {
       "yours": [
-        {
-          "name": "Kayla Harrison",
-          "record": "0-0",
-          "score": 71,
-          "pop": 86,
-          "title": 60,
-          "rec": 50,
-          "cross": 100,
-          "tags": [],
-          "champ": true,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Julianna Pe\u00f1a",
-          "record": "?-?",
-          "score": 61,
-          "pop": 82,
-          "title": 40,
-          "rec": 50,
-          "cross": 58,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Raquel Pennington",
-          "record": "0-0",
-          "score": 54,
-          "pop": 68,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [
-            "former"
-          ],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Irene Aldana",
-          "record": "0-0",
-          "score": 49,
-          "pop": 66,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Norma Dumont",
-          "record": "0-0",
-          "score": 48,
-          "pop": 62,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Yana Santos",
-          "record": "0-0",
-          "score": 48,
-          "pop": 60,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Ailin Perez",
-          "record": "0-0",
-          "score": 48,
-          "pop": 58,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Ketlen Vieira",
-          "record": "0-0",
-          "score": 47,
-          "pop": 56,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Karol Rosa",
-          "record": "0-0",
-          "score": 47,
-          "pop": 54,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        },
-        {
-          "name": "Macy Chiasson",
-          "record": "0-0",
-          "score": 47,
-          "pop": 52,
-          "title": 20,
-          "rec": 50,
-          "cross": 50,
-          "tags": [],
-          "champ": false,
-          "votes": {
-            "up": 0,
-            "dn": 0
-          }
-        }
+        {"name":"Kayla Harrison","record":"19-1","score":93,"pop":86,"title":95,"rec":90,"cross":96,"tags":[],"champ":true,"votes":{"up":1980,"dn":290}},
+        {"name":"Julianna Peña","record":"12-6","score":84,"pop":82,"title":90,"rec":78,"cross":74,"tags":["former"],"votes":{"up":1240,"dn":480}},
+        {"name":"Raquel Pennington","record":"16-9","score":76,"pop":68,"title":68,"rec":74,"cross":66,"tags":["former"],"votes":{"up":720,"dn":280}},
+        {"name":"Norma Dumont","record":"13-2","score":74,"pop":62,"title":38,"rec":80,"cross":70,"tags":[],"votes":{"up":560,"dn":190}},
+        {"name":"Irene Aldana","record":"15-8","score":70,"pop":66,"title":42,"rec":72,"cross":68,"tags":[],"votes":{"up":580,"dn":230}},
+        {"name":"Yana Santos","record":"17-8 1NC","score":66,"pop":60,"title":28,"rec":68,"cross":62,"tags":[],"votes":{"up":480,"dn":200}},
+        {"name":"Ailin Perez","record":"13-2","score":63,"pop":58,"title":22,"rec":72,"cross":60,"tags":["streak"],"votes":{"up":440,"dn":170}},
+        {"name":"Ketlen Vieira","record":"15-5","score":60,"pop":56,"title":28,"rec":66,"cross":62,"tags":[],"votes":{"up":420,"dn":190}},
+        {"name":"Karol Rosa","record":"19-7","score":56,"pop":54,"title":16,"rec":62,"cross":58,"tags":[],"votes":{"up":380,"dn":170}},
+        {"name":"Macy Chiasson","record":"10-6","score":52,"pop":52,"title":14,"rec":58,"cross":54,"tags":[],"votes":{"up":340,"dn":160}}
       ],
       "official": [
-        {
-          "name": "Kayla Harrison",
-          "record": "",
-          "champ": true
-        },
-        {
-          "name": "Julianna Pe\u00f1a",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Raquel Pennington",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Norma Dumont",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Irene Aldana",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Yana Santos",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Ailin Perez",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Ketlen Vieira",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Karol Rosa",
-          "record": "",
-          "champ": false
-        },
-        {
-          "name": "Macy Chiasson",
-          "record": "",
-          "champ": false
-        }
+        {"name":"Kayla Harrison","record":"19-1","champ":true},
+        {"name":"Julianna Peña","record":"12-6"},{"name":"Raquel Pennington","record":"16-9"},
+        {"name":"Norma Dumont","record":"13-2"},{"name":"Irene Aldana","record":"15-8"},
+        {"name":"Yana Santos","record":"17-8 1NC"},{"name":"Ailin Perez","record":"13-2"},
+        {"name":"Ketlen Vieira","record":"15-5"},{"name":"Karol Rosa","record":"19-7"},
+        {"name":"Macy Chiasson","record":"10-6"}
       ]
     }
   }
