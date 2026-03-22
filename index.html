@@ -14,7 +14,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 .logo-dot{width:7px;height:7px;background:var(--red);border-radius:50%;animation:pulse 2s infinite;flex-shrink:0;}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.7)}}
 .header-right{display:flex;align-items:center;gap:10px;}
-.updated-badge{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.25);color:var(--gold);padding:3px 9px;border-radius:2px;font-size:10px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.05em;}
 .sync-bar{padding:6px 1.5rem;background:rgba(201,168,76,.03);border-bottom:1px solid rgba(201,168,76,.08);display:flex;align-items:center;gap:8px;font-size:11px;color:rgba(201,168,76,.55);font-family:'Barlow Condensed',sans-serif;letter-spacing:.05em;}
 .sync-dot{width:5px;height:5px;background:var(--gold);border-radius:50%;flex-shrink:0;}
 .hero{padding:1.75rem 1.5rem 1.25rem;border-bottom:1px solid var(--border);}
@@ -124,7 +123,6 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
     <div style="font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:22px;letter-spacing:0.06em;line-height:1"><span style="color:var(--text)">cage</span><span style="color:var(--gold)">ranks</span></div>
   </div>
   <div class="header-right">
-    <div class="updated-badge" id="updatedBadge">Loading...</div>
   </div>
 </header>
 
@@ -135,7 +133,7 @@ header{border-bottom:1px solid var(--border);padding:0 1.5rem;display:flex;align
 
 <div class="hero">
   <h1>Fighter <em>Rankings</em></h1>
-  <p>Composite rankings built from win quality, title history, fan popularity, and cross-org performance. Updated weekly. Vote to register community sentiment.</p>
+  <p>UFC divisional rankings built from win quality, title history, fan popularity, and cross-org performance. Updated weekly after every fight card. Vote to register community sentiment.</p>
 </div>
 
 <div class="nav-wrap">
@@ -212,7 +210,6 @@ async function loadData(){
     }
     // Update header dates
     if(META.updated){
-      document.getElementById('updatedBadge').textContent=META.updated;
       document.getElementById('syncText').textContent=
         `Data refreshed weekly · Last sync: ${META.updated} · Next sync: ${META.next_update||'soon'}`;
     }
