@@ -52,7 +52,9 @@
           "title": 82,
           "rec": 80,
           "cross": 78,
-          "tags": [],
+          "tags": [
+            "former"
+          ],
           "votes": {
             "up": 860,
             "dn": 310
