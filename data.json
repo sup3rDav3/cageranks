@@ -916,9 +916,7 @@
           "title": 66,
           "rec": 58,
           "cross": 88,
-          "tags": [
-            "streak"
-          ],
+          "tags": [],
           "votes": {
             "up": 1400,
             "dn": 620
@@ -1112,9 +1110,7 @@
           "title": 38,
           "rec": 92,
           "cross": 72,
-          "tags": [
-            "streak"
-          ],
+          "tags": [],
           "votes": {
             "up": 840,
             "dn": 210
@@ -1356,7 +1352,9 @@
           "title": 14,
           "rec": 76,
           "cross": 56,
-          "tags": [],
+          "tags": [
+            "streak"
+          ],
           "votes": {
             "up": 360,
             "dn": 140
