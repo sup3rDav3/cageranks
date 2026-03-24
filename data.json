@@ -248,7 +248,9 @@
           "title": 70,
           "rec": 90,
           "cross": 78,
-          "tags": [],
+          "tags": [
+            "former"
+          ],
           "votes": {
             "up": 720,
             "dn": 260
