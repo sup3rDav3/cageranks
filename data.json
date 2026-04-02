@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-03-21",
-    "next_update": "2026-03-28",
+    "updated": "2026-04-01",
+    "next_update": "2026-04-08",
     "weights": {
       "record": 0.3,
       "quality": 0.25,
@@ -182,12 +182,12 @@
           "record": "18-3"
         },
         {
-          "name": "Curtis Blaydes",
-          "record": "18-4 1NC"
-        },
-        {
           "name": "Waldo Cortes-Acosta",
           "record": "14-0"
+        },
+        {
+          "name": "Curtis Blaydes",
+          "record": "18-4 1NC"
         },
         {
           "name": "Serghei Spivac",
@@ -198,12 +198,12 @@
           "record": "27-12 1NC"
         },
         {
-          "name": "Marcin Tybura",
-          "record": "25-9"
-        },
-        {
           "name": "Ante Delija",
           "record": "22-5"
+        },
+        {
+          "name": "Tyrell Fortune",
+          "record": "14-2"
         }
       ]
     },
@@ -446,11 +446,11 @@
         },
         {
           "name": "Israel Adesanya",
-          "record": "24-4",
-          "score": 83,
+          "record": "24-6",
+          "score": 78,
           "pop": 90,
           "title": 94,
-          "rec": 68,
+          "rec": 60,
           "cross": 80,
           "tags": [
             "former"
@@ -525,6 +525,22 @@
           }
         },
         {
+          "name": "Joe Pyfer",
+          "record": "16-3",
+          "score": 72,
+          "pop": 74,
+          "title": 18,
+          "rec": 82,
+          "cross": 62,
+          "tags": [
+            "streak"
+          ],
+          "votes": {
+            "up": 480,
+            "dn": 120
+          }
+        },
+        {
           "name": "Reinier de Ridder",
           "record": "18-2",
           "score": 66,
@@ -553,20 +569,6 @@
             "up": 580,
             "dn": 160
           }
-        },
-        {
-          "name": "Brendan Allen",
-          "record": "25-5",
-          "score": 61,
-          "pop": 62,
-          "title": 20,
-          "rec": 78,
-          "cross": 64,
-          "tags": [],
-          "votes": {
-            "up": 520,
-            "dn": 180
-          }
         }
       ],
       "official": [
@@ -588,16 +590,12 @@
           "record": "29-6"
         },
         {
-          "name": "Israel Adesanya",
-          "record": "24-4"
+          "name": "Brendan Allen",
+          "record": "25-5"
         },
         {
           "name": "Caio Borralho",
           "record": "18-1"
-        },
-        {
-          "name": "Brendan Allen",
-          "record": "25-5"
         },
         {
           "name": "Anthony Hernandez",
@@ -606,6 +604,10 @@
         {
           "name": "Reinier de Ridder",
           "record": "18-2"
+        },
+        {
+          "name": "Israel Adesanya",
+          "record": "24-6"
         },
         {
           "name": "Robert Whittaker",
@@ -1088,7 +1090,7 @@
         },
         {
           "name": "Movsar Evloev",
-          "record": "18-0",
+          "record": "20-0",
           "score": 73,
           "pop": 65,
           "title": 40,
@@ -1104,7 +1106,7 @@
         },
         {
           "name": "Lerone Murphy",
-          "record": "16-0-1",
+          "record": "16-1-1",
           "score": 71,
           "pop": 70,
           "title": 38,
@@ -1816,14 +1818,15 @@
         },
         {
           "name": "Alexa Grasso",
-          "record": "16-5-1",
+          "record": "17-5-1",
           "score": 75,
           "pop": 78,
           "title": 80,
           "rec": 72,
           "cross": 70,
           "tags": [
-            "former"
+            "former",
+            "streak"
           ],
           "votes": {
             "up": 1120,
@@ -1892,7 +1895,7 @@
         },
         {
           "name": "Maycee Barber",
-          "record": "15-2",
+          "record": "15-3",
           "score": 60,
           "pop": 70,
           "title": 20,
@@ -1967,11 +1970,11 @@
         },
         {
           "name": "Alexa Grasso",
-          "record": "16-5-1"
+          "record": "17-5-1"
         },
         {
           "name": "Maycee Barber",
-          "record": "15-2"
+          "record": "15-3"
         },
         {
           "name": "Rose Namajunas",
