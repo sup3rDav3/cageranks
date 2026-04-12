@@ -212,6 +212,21 @@
     "lhw": {
       "yours": [
         {
+          "name": "Carlos Ulberg",
+          "record": "15-1",
+          "score": 82,
+          "pop": 62,
+          "title": 22,
+          "rec": 84,
+          "cross": 60,
+          "tags": [],
+          "votes": {
+            "up": 540,
+            "dn": 170
+          },
+          "champ": true
+        },
+        {
           "name": "Alex Pereira",
           "record": "12-3",
           "score": 92,
@@ -321,21 +336,6 @@
             "up": 620,
             "dn": 280
           }
-        },
-        {
-          "name": "Carlos Ulberg",
-          "record": "15-1",
-          "score": 82,
-          "pop": 62,
-          "title": 22,
-          "rec": 84,
-          "cross": 60,
-          "tags": [],
-          "votes": {
-            "up": 540,
-            "dn": 170
-          },
-          "champ": true
         },
         {
           "name": "Azamat Murzakanov",
