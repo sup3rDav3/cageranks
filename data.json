@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-04-01",
-    "next_update": "2026-04-08",
+    "updated": "2026-04-12",
+    "next_update": "2026-04-19",
     "weights": {
       "record": 0.3,
       "quality": 0.25,
@@ -77,8 +77,24 @@
           }
         },
         {
+          "name": "Alex Pereira",
+          "record": "12-3",
+          "score": 88,
+          "pop": 97,
+          "title": 96,
+          "rec": 88,
+          "cross": 90,
+          "tags": [
+            "former"
+          ],
+          "votes": {
+            "up": 2880,
+            "dn": 240
+          }
+        },
+        {
           "name": "Curtis Blaydes",
-          "record": "18-4 1NC",
+          "record": "18-5 1NC",
           "score": 70,
           "pop": 64,
           "title": 52,
@@ -147,20 +163,6 @@
             "up": 480,
             "dn": 140
           }
-        },
-        {
-          "name": "Serghei Spivac",
-          "record": "17-4",
-          "score": 57,
-          "pop": 56,
-          "title": 16,
-          "rec": 74,
-          "cross": 58,
-          "tags": [],
-          "votes": {
-            "up": 380,
-            "dn": 160
-          }
         }
       ],
       "official": [
@@ -217,8 +219,10 @@
           "title": 98,
           "rec": 90,
           "cross": 90,
-          "tags": [],
-          "champ": true,
+          "tags": [
+            "former"
+          ],
+          "champ": false,
           "votes": {
             "up": 2880,
             "dn": 240
@@ -226,7 +230,7 @@
         },
         {
           "name": "Jiri Prochazka",
-          "record": "32-5",
+          "record": "32-6-1",
           "score": 82,
           "pop": 84,
           "title": 88,
@@ -306,7 +310,7 @@
         },
         {
           "name": "Dominick Reyes",
-          "record": "13-5",
+          "record": "14-5",
           "score": 65,
           "pop": 64,
           "title": 66,
@@ -320,31 +324,28 @@
         },
         {
           "name": "Carlos Ulberg",
-          "record": "13-2",
-          "score": 63,
+          "record": "15-1",
+          "score": 82,
           "pop": 62,
           "title": 22,
           "rec": 84,
           "cross": 60,
-          "tags": [
-            "streak"
-          ],
+          "tags": [],
           "votes": {
             "up": 540,
             "dn": 170
-          }
+          },
+          "champ": true
         },
         {
           "name": "Azamat Murzakanov",
-          "record": "13-1",
+          "record": "13-2",
           "score": 56,
           "pop": 54,
           "title": 16,
           "rec": 78,
           "cross": 56,
-          "tags": [
-            "streak"
-          ],
+          "tags": [],
           "votes": {
             "up": 360,
             "dn": 140
@@ -369,8 +370,8 @@
       ],
       "official": [
         {
-          "name": "Alex Pereira",
-          "record": "12-3",
+          "name": "Carlos Ulberg",
+          "record": "15-1",
           "champ": true
         },
         {
@@ -379,11 +380,7 @@
         },
         {
           "name": "Jiri Prochazka",
-          "record": "32-5"
-        },
-        {
-          "name": "Carlos Ulberg",
-          "record": "13-2"
+          "record": "32-6-1"
         },
         {
           "name": "Khalil Rountree",
@@ -394,20 +391,24 @@
           "record": "30-11 1NC"
         },
         {
+          "name": "Jamahal Hill",
+          "record": "13-2 1NC"
+        },
+        {
           "name": "Azamat Murzakanov",
           "record": "13-1"
         },
         {
-          "name": "Jamahal Hill",
-          "record": "13-2 1NC"
+          "name": "Dominick Reyes",
+          "record": "13-5"
         },
         {
           "name": "Bogdan Guskov",
           "record": "16-2"
         },
         {
-          "name": "Dominick Reyes",
-          "record": "13-5"
+          "name": "Alex Pereira",
+          "record": "12-3"
         }
       ]
     },
@@ -1640,13 +1641,15 @@
         },
         {
           "name": "Tatiana Suarez",
-          "record": "11-1",
+          "record": "12-1",
           "score": 73,
           "pop": 72,
           "title": 50,
           "rec": 88,
           "cross": 66,
-          "tags": [],
+          "tags": [
+            "streak"
+          ],
           "votes": {
             "up": 840,
             "dn": 220
@@ -1654,7 +1657,7 @@
         },
         {
           "name": "Virna Jandiroba",
-          "record": "22-4",
+          "record": "23-4",
           "score": 71,
           "pop": 66,
           "title": 58,
@@ -1728,7 +1731,7 @@
         },
         {
           "name": "Loopy Godinez",
-          "record": "11-4",
+          "record": "11-5",
           "score": 53,
           "pop": 58,
           "title": 12,
@@ -1742,7 +1745,7 @@
         },
         {
           "name": "Tabatha Ricci",
-          "record": "12-2",
+          "record": "12-3",
           "score": 53,
           "pop": 56,
           "title": 12,
