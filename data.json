@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-04-12",
-    "next_update": "2026-04-19",
+    "updated": "2026-04-19",
+    "next_update": "2026-04-26",
     "weights": {
       "record": 0.3,
       "quality": 0.25,
@@ -1912,13 +1912,15 @@
         },
         {
           "name": "Jasmine Jasudavicius",
-          "record": "14-4",
+          "record": "15-4",
           "score": 52,
           "pop": 52,
           "title": 14,
           "rec": 68,
           "cross": 54,
-          "tags": [],
+          "tags": [
+            "streak"
+          ],
           "votes": {
             "up": 380,
             "dn": 160
